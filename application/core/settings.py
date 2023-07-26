@@ -39,6 +39,11 @@ INSTALLED_APPS = [
     'django.contrib.contenttypes',
     'django.contrib.sessions',
     'django.contrib.messages',
+    'rest_framework',
+
+    # my apps
+    'accounts',
+    'organization',
 ]
 
 MIDDLEWARE = [
@@ -85,7 +90,8 @@ DATABASES = {
         'PORT': os.getenv('POSTGRES_PORT', 'change-me'),
     }
 }
-
+# https://docs.djangoproject.com/en/4.2/topics/auth/customizing/
+AUTH_USER_MODEL = "accounts.User"
 
 # Password validation
 # https://docs.djangoproject.com/en/4.2/ref/settings/#auth-password-validators
@@ -140,7 +146,7 @@ LOGGING = {
             'class': 'logging.handlers.TimedRotatingFileHandler',
             'when': 'midnight',
             'formatter': 'verbose',
-            'filename': LOGS_DIR + LOG_LEVEL + '.log'
+            'filename': LOGS_DIR
         }
     },
     'root': {
