@@ -1,12 +1,14 @@
 
+from organization.models import Organization
 from .models import User
-from django.db.models import Q
+from .serializers import UserSerializer, UpdateUserSerializer
 
 
 class ServiceUser():
     def create(self, data: dict):
         try:
             if User.objects.get(id=data['user_id']).is_admin:
+                Organization.objects.get()
                 User.objects.create_user(username=data['username'], email=data['email'], password=data['password'])
             else:
                 raise Exception('Apenas usuarios admin podem criar novos usuarios')
@@ -19,25 +21,11 @@ class ServiceUser():
         try:
             if User.objects.get(id=user_request_id).is_admin:
                 if user_filter_id:
-                    user_data = User.objects.filter(Q(id=user_filter_id)).last()
-                    return {
-                        "id": user_data.id,
-                        "email": user_data.email,
-                        "username": user_data.username,
-                        "is_admin": user_data.is_admin,
-                        "is_staff": user_data.is_staff,
-                    }
+                    user_data = User.objects.get(id=user_filter_id)
+                    return UserSerializer(user_data)
                 else:
-
-                    return [
-                        {
-                            "id": user_data.id,
-                            "email": user_data.email,
-                            "username": user_data.username,
-                            "is_admin": user_data.is_admin,
-                            "is_staff": user_data.is_staff,
-                        } for user_data in User.objects.all()
-                    ]
+                    user_data = User.objects.filter(is_active=True).order_by('id')
+                    return UserSerializer(user_data, many=True)
             else:
                 raise Exception('Apenas usuarios admin podem listar usuarios')
         except Exception as error:
@@ -45,12 +33,14 @@ class ServiceUser():
 
     def update(self, data: dict):
         try:
-            if user := User.objects.get(id=data['user_id']):
-                user.username = data.get('username', user.username)
-                user.email = data.get('email', user.email)
-                user.save()
+            serializer = UpdateUserSerializer()
+            if User.objects.get(id=data['user_id']).is_admin:  # request user login
+                if user_instance := User.objects.get(id=data['id']):
+                    serializer.update(instance=user_instance, validated_data=data)
+                else:
+                    raise Exception(f"Usuario não encontrado")
             else:
-                raise Exception(f"Usuario não encontrado {err}")
+                raise Exception(f"Apenas usuarios admin podem criar novos usuarios")
         except Exception as err:
             raise Exception(f"Error on update user {err}")
         else:

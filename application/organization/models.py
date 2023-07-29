@@ -1,8 +1,9 @@
 from typing import Any
 from django.db import models
+from core.utils.base import BaseClassModel
 
 
-class Organization(models.Model):
+class Organization(BaseClassModel):
     name = models.CharField(max_length=200)
 
     class Meta:

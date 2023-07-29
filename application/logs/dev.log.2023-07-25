@@ -1,88 +1,40 @@
-2023-07-29 10:16:42,364 INFO [django.utils.autoreload:668] autoreload 15 139710191782728 Watching for file changes with StatReloader
-2023-07-29 10:16:55,871 WARNING [django.request:241] log 15 139710131174200 Not Found: /favicon.ico
-2023-07-29 10:21:41,107 INFO [django.utils.autoreload:266] autoreload 15 139710191782728 /application/core/settings.py changed, reloading.
-2023-07-29 10:21:45,112 INFO [django.utils.autoreload:668] autoreload 43 140509174991688 Watching for file changes with StatReloader
-2023-07-29 10:22:09,578 INFO [django.utils.autoreload:266] autoreload 43 140509174991688 /application/core/settings.py changed, reloading.
-2023-07-29 10:22:13,344 INFO [django.utils.autoreload:668] autoreload 45 140676919171912 Watching for file changes with StatReloader
-2023-07-29 10:22:37,294 INFO [django.utils.autoreload:266] autoreload 45 140676919171912 /application/core/settings.py changed, reloading.
-2023-07-29 10:22:41,201 INFO [django.utils.autoreload:668] autoreload 47 140159016368968 Watching for file changes with StatReloader
-2023-07-29 10:23:30,333 INFO [django.utils.autoreload:266] autoreload 47 140159016368968 /application/core/settings.py changed, reloading.
-2023-07-29 10:23:34,417 INFO [django.utils.autoreload:668] autoreload 49 140675057912648 Watching for file changes with StatReloader
-2023-07-29 10:23:52,320 INFO [django.utils.autoreload:266] autoreload 49 140675057912648 /application/core/settings.py changed, reloading.
-2023-07-29 10:23:55,903 INFO [django.utils.autoreload:668] autoreload 51 140655538051912 Watching for file changes with StatReloader
-2023-07-29 10:27:24,978 INFO [django.utils.autoreload:266] autoreload 51 140655538051912 /application/core/urls.py changed, reloading.
-2023-07-29 10:27:28,723 INFO [django.utils.autoreload:668] autoreload 53 139962558450504 Watching for file changes with StatReloader
-2023-07-29 10:28:31,388 INFO [django.utils.autoreload:266] autoreload 53 139962558450504 /application/core/urls.py changed, reloading.
-2023-07-29 10:28:35,533 INFO [django.utils.autoreload:668] autoreload 55 140117822995272 Watching for file changes with StatReloader
-2023-07-29 10:33:18,520 WARNING [django.request:241] log 55 140117755149112 Method Not Allowed: /accounts/login/token/
-2023-07-29 10:33:22,520 WARNING [django.request:241] log 55 140117755149112 Bad Request: /accounts/login/token/
-2023-07-29 10:34:38,943 WARNING [django.request:241] log 55 140117755149112 Unauthorized: /accounts/login/token/
-2023-07-29 10:37:19,273 INFO [django.utils.autoreload:266] autoreload 55 140117822995272 /application/accounts/admin.py changed, reloading.
-2023-07-29 10:37:23,281 INFO [django.utils.autoreload:668] autoreload 59 139801425693512 Watching for file changes with StatReloader
-2023-07-29 10:37:35,938 INFO [django.utils.autoreload:266] autoreload 59 139801425693512 /application/accounts/admin.py changed, reloading.
-2023-07-29 10:37:39,970 INFO [django.utils.autoreload:668] autoreload 61 140058194434888 Watching for file changes with StatReloader
-2023-07-29 10:38:25,102 INFO [django.utils.autoreload:266] autoreload 61 140058194434888 /application/accounts/admin.py changed, reloading.
-2023-07-29 10:38:29,016 INFO [django.utils.autoreload:668] autoreload 64 140315049220936 Watching for file changes with StatReloader
-2023-07-29 10:39:30,226 INFO [django.utils.autoreload:266] autoreload 64 140315049220936 /application/accounts/managers.py changed, reloading.
-2023-07-29 10:39:35,183 INFO [django.utils.autoreload:668] autoreload 66 139958043638600 Watching for file changes with StatReloader
-2023-07-29 10:39:55,558 INFO [django.utils.autoreload:266] autoreload 66 139958043638600 /application/accounts/managers.py changed, reloading.
-2023-07-29 10:39:59,231 INFO [django.utils.autoreload:668] autoreload 68 140539657816904 Watching for file changes with StatReloader
-2023-07-29 10:40:32,765 INFO [django.utils.autoreload:266] autoreload 68 140539657816904 /application/accounts/managers.py changed, reloading.
-2023-07-29 10:40:36,512 INFO [django.utils.autoreload:668] autoreload 71 139784516279112 Watching for file changes with StatReloader
-2023-07-29 11:07:31,181 INFO [django.utils.autoreload:266] autoreload 71 139784516279112 /application/accounts/urls.py changed, reloading.
-2023-07-29 11:07:35,318 INFO [django.utils.autoreload:668] autoreload 78 139697914866504 Watching for file changes with StatReloader
-2023-07-29 11:07:50,142 INFO [django.utils.autoreload:266] autoreload 78 139697914866504 /application/accounts/services.py changed, reloading.
-2023-07-29 11:07:53,657 INFO [django.utils.autoreload:668] autoreload 80 139933434424136 Watching for file changes with StatReloader
-2023-07-29 11:08:06,101 WARNING [django.request:241] log 80 139933366471480 Not Found: /users/
-2023-07-29 11:08:27,452 INFO [django.utils.autoreload:266] autoreload 80 139933434424136 /application/accounts/urls.py changed, reloading.
-2023-07-29 11:08:31,132 INFO [django.utils.autoreload:668] autoreload 83 139949792951112 Watching for file changes with StatReloader
-2023-07-29 11:08:39,211 ERROR [django.request:241] log 83 139949724310328 Internal Server Error: /accounts/users
-Traceback (most recent call last):
-  File "/venv/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
-    response = get_response(request)
-               ^^^^^^^^^^^^^^^^^^^^^
-  File "/venv/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
-    response = wrapped_callback(request, *callback_args, **callback_kwargs)
-               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/venv/lib/python3.11/site-packages/django/views/decorators/csrf.py", line 56, in wrapper_view
-    return view_func(*args, **kwargs)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/venv/lib/python3.11/site-packages/django/views/generic/base.py", line 104, in view
-    return self.dispatch(request, *args, **kwargs)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/venv/lib/python3.11/site-packages/rest_framework/views.py", line 511, in dispatch
-    self.response = self.finalize_response(request, response, *args, **kwargs)
-                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/venv/lib/python3.11/site-packages/rest_framework/views.py", line 423, in finalize_response
-    assert isinstance(response, HttpResponseBase), (
-AssertionError: Expected a `Response`, `HttpResponse` or `HttpStreamingResponse` to be returned from the view, but received a `<class 'NoneType'>`
-2023-07-29 11:09:09,941 INFO [django.utils.autoreload:266] autoreload 83 139949792951112 /application/accounts/views.py changed, reloading.
-2023-07-29 11:09:14,153 INFO [django.utils.autoreload:668] autoreload 86 139852053916488 Watching for file changes with StatReloader
-2023-07-29 11:09:22,566 INFO [django.utils.autoreload:266] autoreload 86 139852053916488 /application/accounts/views.py changed, reloading.
-2023-07-29 11:09:26,553 INFO [django.utils.autoreload:668] autoreload 88 139867658562376 Watching for file changes with StatReloader
-2023-07-29 11:09:30,496 INFO [django.utils.autoreload:266] autoreload 88 139867658562376 /application/accounts/views.py changed, reloading.
-2023-07-29 11:09:34,901 INFO [django.utils.autoreload:668] autoreload 91 140697464892232 Watching for file changes with StatReloader
-2023-07-29 11:10:43,232 INFO [django.utils.autoreload:266] autoreload 91 140697464892232 /application/accounts/services.py changed, reloading.
-2023-07-29 11:10:47,235 INFO [django.utils.autoreload:668] autoreload 93 139693240888136 Watching for file changes with StatReloader
-2023-07-29 11:10:56,942 INFO [django.utils.autoreload:266] autoreload 93 139693240888136 /application/accounts/services.py changed, reloading.
-2023-07-29 11:11:00,826 INFO [django.utils.autoreload:668] autoreload 95 140260525697864 Watching for file changes with StatReloader
-2023-07-29 11:11:46,123 INFO [django.utils.autoreload:266] autoreload 95 140260525697864 /application/accounts/services.py changed, reloading.
-2023-07-29 11:11:50,149 INFO [django.utils.autoreload:668] autoreload 97 140215923219272 Watching for file changes with StatReloader
-2023-07-29 11:12:02,955 INFO [django.utils.autoreload:266] autoreload 97 140215923219272 /application/accounts/services.py changed, reloading.
-2023-07-29 11:12:06,599 INFO [django.utils.autoreload:668] autoreload 99 139850438343496 Watching for file changes with StatReloader
-2023-07-29 11:13:09,774 INFO [django.utils.autoreload:266] autoreload 99 139850438343496 /application/accounts/services.py changed, reloading.
-2023-07-29 11:13:13,822 INFO [django.utils.autoreload:668] autoreload 101 140283069000520 Watching for file changes with StatReloader
-2023-07-29 11:14:11,582 INFO [django.utils.autoreload:266] autoreload 101 140283069000520 /application/accounts/services.py changed, reloading.
-2023-07-29 11:14:15,323 INFO [django.utils.autoreload:668] autoreload 103 139942669036360 Watching for file changes with StatReloader
-2023-07-29 11:15:28,973 INFO [django.utils.autoreload:266] autoreload 103 139942669036360 /application/accounts/views.py changed, reloading.
-2023-07-29 11:15:33,088 INFO [django.utils.autoreload:668] autoreload 106 139763954047816 Watching for file changes with StatReloader
-2023-07-29 11:17:02,748 INFO [django.utils.autoreload:266] autoreload 106 139763954047816 /application/accounts/views.py changed, reloading.
-2023-07-29 11:17:07,483 INFO [django.utils.autoreload:668] autoreload 108 139916914842440 Watching for file changes with StatReloader
-2023-07-29 11:17:23,952 INFO [django.utils.autoreload:266] autoreload 108 139916914842440 /application/accounts/views.py changed, reloading.
-2023-07-29 11:17:28,967 INFO [django.utils.autoreload:668] autoreload 110 140280118360904 Watching for file changes with StatReloader
-2023-07-29 11:18:20,220 INFO [django.utils.autoreload:266] autoreload 110 140280118360904 /application/accounts/views.py changed, reloading.
-2023-07-29 11:18:24,665 INFO [django.utils.autoreload:668] autoreload 113 140401503673160 Watching for file changes with StatReloader
-2023-07-29 11:18:27,948 INFO [django.utils.autoreload:266] autoreload 113 140401503673160 /application/accounts/views.py changed, reloading.
-2023-07-29 11:18:32,410 INFO [django.utils.autoreload:668] autoreload 115 140015287544648 Watching for file changes with StatReloader
-2023-07-29 11:18:46,921 INFO [django.utils.autoreload:266] autoreload 115 140015287544648 /application/accounts/views.py changed, reloading.
-2023-07-29 11:18:51,030 INFO [django.utils.autoreload:668] autoreload 117 140624899619656 Watching for file changes with StatReloader
+2023-07-25 21:12:26,868 INFO [django.utils.autoreload:668] autoreload 14 140601821494088 Watching for file changes with StatReloader
+2023-07-25 21:16:10,104 WARNING [django.request:241] log 14 140601758128952 Not Found: /admin/admin/css/dashboard.css
+2023-07-25 21:16:10,108 WARNING [django.request:241] log 14 140601759320888 Not Found: /admin/admin/css/responsive.css
+2023-07-25 21:16:10,111 WARNING [django.request:241] log 14 140601760381752 Not Found: /admin/admin/css/base.css
+2023-07-25 21:16:10,113 WARNING [django.request:241] log 14 140601762503480 Not Found: /admin/admin/js/theme.js
+2023-07-25 21:16:10,117 WARNING [django.request:241] log 14 140601765686072 Not Found: /admin/admin/css/dark_mode.css
+2023-07-25 21:16:10,121 WARNING [django.request:241] log 14 140601761442616 Not Found: /admin/admin/css/nav_sidebar.css
+2023-07-25 21:16:10,148 WARNING [django.request:241] log 14 140601758128952 Not Found: /admin/admin/js/nav_sidebar.js
+2023-07-25 21:16:25,577 WARNING [django.request:241] log 14 140601761442616 Not Found: /admin/auth/user/admin/css/nav_sidebar.css
+2023-07-25 21:16:25,584 WARNING [django.request:241] log 14 140601762503480 Not Found: /admin/auth/user/admin/css/dark_mode.css
+2023-07-25 21:16:25,587 WARNING [django.request:241] log 14 140601760381752 Not Found: /admin/auth/user/admin/css/changelists.css
+2023-07-25 21:16:25,590 WARNING [django.request:241] log 14 140601765690168 Not Found: /admin/auth/user/admin/css/base.css
+2023-07-25 21:16:25,600 WARNING [django.request:241] log 14 140601758128952 Not Found: /admin/auth/user/admin/js/vendor/jquery/jquery.js
+2023-07-25 21:16:25,639 WARNING [django.request:241] log 14 140601759320888 Not Found: /admin/auth/user/admin/css/responsive.css
+2023-07-25 21:16:25,689 WARNING [django.request:241] log 14 140601762503480 Not Found: /admin/auth/user/admin/js/core.js
+2023-07-25 21:16:25,696 WARNING [django.request:241] log 14 140601761442616 Not Found: /admin/auth/user/admin/js/jquery.init.js
+2023-07-25 21:16:25,699 WARNING [django.request:241] log 14 140601760381752 Not Found: /admin/auth/user/admin/js/admin/RelatedObjectLookups.js
+2023-07-25 21:16:25,722 WARNING [django.request:241] log 14 140601765690168 Not Found: /admin/auth/user/admin/js/actions.js
+2023-07-25 21:16:25,726 WARNING [django.request:241] log 14 140601758128952 Not Found: /admin/auth/user/admin/js/urlify.js
+2023-07-25 21:16:25,732 WARNING [django.request:241] log 14 140601759320888 Not Found: /admin/auth/user/admin/js/prepopulate.js
+2023-07-25 21:16:25,744 WARNING [django.request:241] log 14 140601762503480 Not Found: /admin/auth/user/admin/js/vendor/xregexp/xregexp.js
+2023-07-25 21:16:25,764 WARNING [django.request:241] log 14 140601759320888 Not Found: /admin/auth/user/admin/js/theme.js
+2023-07-25 21:16:25,811 WARNING [django.request:241] log 14 140601765690168 Not Found: /admin/auth/user/admin/js/filters.js
+2023-07-25 21:16:25,814 WARNING [django.request:241] log 14 140601760381752 Not Found: /admin/auth/user/admin/img/search.svg
+2023-07-25 21:16:25,816 WARNING [django.request:241] log 14 140601761442616 Not Found: /admin/auth/user/admin/img/icon-yes.svg
+2023-07-25 21:16:25,818 WARNING [django.request:241] log 14 140601762503480 Not Found: /admin/auth/user/admin/js/nav_sidebar.js
+2023-07-25 21:16:25,820 WARNING [django.request:241] log 14 140601758128952 Not Found: /admin/auth/user/admin/css/responsive.css
+2023-07-25 21:28:57,291 INFO [django.utils.autoreload:668] autoreload 11 140701026315080 Watching for file changes with StatReloader
+2023-07-25 21:29:36,469 INFO [django.utils.autoreload:668] autoreload 13 140583449725768 Watching for file changes with StatReloader
+2023-07-25 21:33:37,999 INFO [django.utils.autoreload:668] autoreload 14 140665729428296 Watching for file changes with StatReloader
+2023-07-25 21:37:43,719 INFO [django.utils.autoreload:266] autoreload 14 140665729428296 /application/core/settings.py changed, reloading.
+2023-07-25 21:37:44,991 INFO [django.utils.autoreload:668] autoreload 16 140271353518920 Watching for file changes with StatReloader
+2023-07-25 21:37:54,296 INFO [django.utils.autoreload:266] autoreload 16 140271353518920 /application/core/settings.py changed, reloading.
+2023-07-25 21:37:55,439 INFO [django.utils.autoreload:668] autoreload 18 140038601669448 Watching for file changes with StatReloader
+2023-07-25 21:41:50,774 INFO [django.utils.autoreload:668] autoreload 13 140314936732488 Watching for file changes with StatReloader
+2023-07-25 21:42:54,272 INFO [django.utils.autoreload:266] autoreload 13 140314936732488 /application/core/settings.py changed, reloading.
+2023-07-25 21:42:55,972 INFO [django.utils.autoreload:668] autoreload 28 140404889000776 Watching for file changes with StatReloader
+2023-07-25 21:44:19,621 INFO [django.utils.autoreload:266] autoreload 28 140404889000776 /application/organization/models.py changed, reloading.
+2023-07-25 21:44:21,105 INFO [django.utils.autoreload:668] autoreload 30 140429614484296 Watching for file changes with StatReloader
+2023-07-25 21:46:16,095 INFO [django.utils.autoreload:668] autoreload 11 140121896663880 Watching for file changes with StatReloader
