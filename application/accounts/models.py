@@ -3,8 +3,9 @@ from django.contrib.auth.base_user import AbstractBaseUser
 from django.contrib.auth.models import PermissionsMixin
 from django.utils.translation import gettext as _
 
-from accounts.managers import UserManager
-from . import *
+from .managers import UserManager
+from .models import *
+from organization.models import Organization
 
 
 class User(AbstractBaseUser, PermissionsMixin):
@@ -16,8 +17,9 @@ class User(AbstractBaseUser, PermissionsMixin):
     is_active = models.BooleanField(_('active'), default=True)
     is_staff = models.BooleanField(_('staff'), default=False)
     is_admin = models.BooleanField(_('admin status'), default=False)
+    ornanization = models.ForeignKey(Organization, on_delete=models.PROTECT, null=True, blank=True)
 
-    USERNAME_FIELD = 'username'
+    USERNAME_FIELD = 'email'
     REQUIRED_FIELDS = []
 
     objects = UserManager()
