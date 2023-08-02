@@ -22,10 +22,10 @@ class ServiceUser():
             if User.objects.get(id=user_request_id).is_admin:
                 if user_filter_id:
                     user_data = User.objects.get(id=user_filter_id)
-                    return UserSerializer(user_data)
+                    return UserSerializer(user_data).data
                 else:
                     user_data = User.objects.filter(is_active=True).order_by('id')
-                    return UserSerializer(user_data, many=True)
+                    return UserSerializer(user_data, many=True).data
             else:
                 raise Exception('Apenas usuarios admin podem listar usuarios')
         except Exception as error:

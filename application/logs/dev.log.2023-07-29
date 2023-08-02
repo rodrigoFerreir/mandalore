@@ -1,0 +1,190 @@
+2023-07-29 10:16:42,364 INFO [django.utils.autoreload:668] autoreload 15 139710191782728 Watching for file changes with StatReloader
+2023-07-29 10:16:55,871 WARNING [django.request:241] log 15 139710131174200 Not Found: /favicon.ico
+2023-07-29 10:21:41,107 INFO [django.utils.autoreload:266] autoreload 15 139710191782728 /application/core/settings.py changed, reloading.
+2023-07-29 10:21:45,112 INFO [django.utils.autoreload:668] autoreload 43 140509174991688 Watching for file changes with StatReloader
+2023-07-29 10:22:09,578 INFO [django.utils.autoreload:266] autoreload 43 140509174991688 /application/core/settings.py changed, reloading.
+2023-07-29 10:22:13,344 INFO [django.utils.autoreload:668] autoreload 45 140676919171912 Watching for file changes with StatReloader
+2023-07-29 10:22:37,294 INFO [django.utils.autoreload:266] autoreload 45 140676919171912 /application/core/settings.py changed, reloading.
+2023-07-29 10:22:41,201 INFO [django.utils.autoreload:668] autoreload 47 140159016368968 Watching for file changes with StatReloader
+2023-07-29 10:23:30,333 INFO [django.utils.autoreload:266] autoreload 47 140159016368968 /application/core/settings.py changed, reloading.
+2023-07-29 10:23:34,417 INFO [django.utils.autoreload:668] autoreload 49 140675057912648 Watching for file changes with StatReloader
+2023-07-29 10:23:52,320 INFO [django.utils.autoreload:266] autoreload 49 140675057912648 /application/core/settings.py changed, reloading.
+2023-07-29 10:23:55,903 INFO [django.utils.autoreload:668] autoreload 51 140655538051912 Watching for file changes with StatReloader
+2023-07-29 10:27:24,978 INFO [django.utils.autoreload:266] autoreload 51 140655538051912 /application/core/urls.py changed, reloading.
+2023-07-29 10:27:28,723 INFO [django.utils.autoreload:668] autoreload 53 139962558450504 Watching for file changes with StatReloader
+2023-07-29 10:28:31,388 INFO [django.utils.autoreload:266] autoreload 53 139962558450504 /application/core/urls.py changed, reloading.
+2023-07-29 10:28:35,533 INFO [django.utils.autoreload:668] autoreload 55 140117822995272 Watching for file changes with StatReloader
+2023-07-29 10:33:18,520 WARNING [django.request:241] log 55 140117755149112 Method Not Allowed: /accounts/login/token/
+2023-07-29 10:33:22,520 WARNING [django.request:241] log 55 140117755149112 Bad Request: /accounts/login/token/
+2023-07-29 10:34:38,943 WARNING [django.request:241] log 55 140117755149112 Unauthorized: /accounts/login/token/
+2023-07-29 10:37:19,273 INFO [django.utils.autoreload:266] autoreload 55 140117822995272 /application/accounts/admin.py changed, reloading.
+2023-07-29 10:37:23,281 INFO [django.utils.autoreload:668] autoreload 59 139801425693512 Watching for file changes with StatReloader
+2023-07-29 10:37:35,938 INFO [django.utils.autoreload:266] autoreload 59 139801425693512 /application/accounts/admin.py changed, reloading.
+2023-07-29 10:37:39,970 INFO [django.utils.autoreload:668] autoreload 61 140058194434888 Watching for file changes with StatReloader
+2023-07-29 10:38:25,102 INFO [django.utils.autoreload:266] autoreload 61 140058194434888 /application/accounts/admin.py changed, reloading.
+2023-07-29 10:38:29,016 INFO [django.utils.autoreload:668] autoreload 64 140315049220936 Watching for file changes with StatReloader
+2023-07-29 10:39:30,226 INFO [django.utils.autoreload:266] autoreload 64 140315049220936 /application/accounts/managers.py changed, reloading.
+2023-07-29 10:39:35,183 INFO [django.utils.autoreload:668] autoreload 66 139958043638600 Watching for file changes with StatReloader
+2023-07-29 10:39:55,558 INFO [django.utils.autoreload:266] autoreload 66 139958043638600 /application/accounts/managers.py changed, reloading.
+2023-07-29 10:39:59,231 INFO [django.utils.autoreload:668] autoreload 68 140539657816904 Watching for file changes with StatReloader
+2023-07-29 10:40:32,765 INFO [django.utils.autoreload:266] autoreload 68 140539657816904 /application/accounts/managers.py changed, reloading.
+2023-07-29 10:40:36,512 INFO [django.utils.autoreload:668] autoreload 71 139784516279112 Watching for file changes with StatReloader
+2023-07-29 11:07:31,181 INFO [django.utils.autoreload:266] autoreload 71 139784516279112 /application/accounts/urls.py changed, reloading.
+2023-07-29 11:07:35,318 INFO [django.utils.autoreload:668] autoreload 78 139697914866504 Watching for file changes with StatReloader
+2023-07-29 11:07:50,142 INFO [django.utils.autoreload:266] autoreload 78 139697914866504 /application/accounts/services.py changed, reloading.
+2023-07-29 11:07:53,657 INFO [django.utils.autoreload:668] autoreload 80 139933434424136 Watching for file changes with StatReloader
+2023-07-29 11:08:06,101 WARNING [django.request:241] log 80 139933366471480 Not Found: /users/
+2023-07-29 11:08:27,452 INFO [django.utils.autoreload:266] autoreload 80 139933434424136 /application/accounts/urls.py changed, reloading.
+2023-07-29 11:08:31,132 INFO [django.utils.autoreload:668] autoreload 83 139949792951112 Watching for file changes with StatReloader
+2023-07-29 11:08:39,211 ERROR [django.request:241] log 83 139949724310328 Internal Server Error: /accounts/users
+Traceback (most recent call last):
+  File "/venv/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/venv/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/venv/lib/python3.11/site-packages/django/views/decorators/csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/venv/lib/python3.11/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/venv/lib/python3.11/site-packages/rest_framework/views.py", line 511, in dispatch
+    self.response = self.finalize_response(request, response, *args, **kwargs)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/venv/lib/python3.11/site-packages/rest_framework/views.py", line 423, in finalize_response
+    assert isinstance(response, HttpResponseBase), (
+AssertionError: Expected a `Response`, `HttpResponse` or `HttpStreamingResponse` to be returned from the view, but received a `<class 'NoneType'>`
+2023-07-29 11:09:09,941 INFO [django.utils.autoreload:266] autoreload 83 139949792951112 /application/accounts/views.py changed, reloading.
+2023-07-29 11:09:14,153 INFO [django.utils.autoreload:668] autoreload 86 139852053916488 Watching for file changes with StatReloader
+2023-07-29 11:09:22,566 INFO [django.utils.autoreload:266] autoreload 86 139852053916488 /application/accounts/views.py changed, reloading.
+2023-07-29 11:09:26,553 INFO [django.utils.autoreload:668] autoreload 88 139867658562376 Watching for file changes with StatReloader
+2023-07-29 11:09:30,496 INFO [django.utils.autoreload:266] autoreload 88 139867658562376 /application/accounts/views.py changed, reloading.
+2023-07-29 11:09:34,901 INFO [django.utils.autoreload:668] autoreload 91 140697464892232 Watching for file changes with StatReloader
+2023-07-29 11:10:43,232 INFO [django.utils.autoreload:266] autoreload 91 140697464892232 /application/accounts/services.py changed, reloading.
+2023-07-29 11:10:47,235 INFO [django.utils.autoreload:668] autoreload 93 139693240888136 Watching for file changes with StatReloader
+2023-07-29 11:10:56,942 INFO [django.utils.autoreload:266] autoreload 93 139693240888136 /application/accounts/services.py changed, reloading.
+2023-07-29 11:11:00,826 INFO [django.utils.autoreload:668] autoreload 95 140260525697864 Watching for file changes with StatReloader
+2023-07-29 11:11:46,123 INFO [django.utils.autoreload:266] autoreload 95 140260525697864 /application/accounts/services.py changed, reloading.
+2023-07-29 11:11:50,149 INFO [django.utils.autoreload:668] autoreload 97 140215923219272 Watching for file changes with StatReloader
+2023-07-29 11:12:02,955 INFO [django.utils.autoreload:266] autoreload 97 140215923219272 /application/accounts/services.py changed, reloading.
+2023-07-29 11:12:06,599 INFO [django.utils.autoreload:668] autoreload 99 139850438343496 Watching for file changes with StatReloader
+2023-07-29 11:13:09,774 INFO [django.utils.autoreload:266] autoreload 99 139850438343496 /application/accounts/services.py changed, reloading.
+2023-07-29 11:13:13,822 INFO [django.utils.autoreload:668] autoreload 101 140283069000520 Watching for file changes with StatReloader
+2023-07-29 11:14:11,582 INFO [django.utils.autoreload:266] autoreload 101 140283069000520 /application/accounts/services.py changed, reloading.
+2023-07-29 11:14:15,323 INFO [django.utils.autoreload:668] autoreload 103 139942669036360 Watching for file changes with StatReloader
+2023-07-29 11:15:28,973 INFO [django.utils.autoreload:266] autoreload 103 139942669036360 /application/accounts/views.py changed, reloading.
+2023-07-29 11:15:33,088 INFO [django.utils.autoreload:668] autoreload 106 139763954047816 Watching for file changes with StatReloader
+2023-07-29 11:17:02,748 INFO [django.utils.autoreload:266] autoreload 106 139763954047816 /application/accounts/views.py changed, reloading.
+2023-07-29 11:17:07,483 INFO [django.utils.autoreload:668] autoreload 108 139916914842440 Watching for file changes with StatReloader
+2023-07-29 11:17:23,952 INFO [django.utils.autoreload:266] autoreload 108 139916914842440 /application/accounts/views.py changed, reloading.
+2023-07-29 11:17:28,967 INFO [django.utils.autoreload:668] autoreload 110 140280118360904 Watching for file changes with StatReloader
+2023-07-29 11:18:20,220 INFO [django.utils.autoreload:266] autoreload 110 140280118360904 /application/accounts/views.py changed, reloading.
+2023-07-29 11:18:24,665 INFO [django.utils.autoreload:668] autoreload 113 140401503673160 Watching for file changes with StatReloader
+2023-07-29 11:18:27,948 INFO [django.utils.autoreload:266] autoreload 113 140401503673160 /application/accounts/views.py changed, reloading.
+2023-07-29 11:18:32,410 INFO [django.utils.autoreload:668] autoreload 115 140015287544648 Watching for file changes with StatReloader
+2023-07-29 11:18:46,921 INFO [django.utils.autoreload:266] autoreload 115 140015287544648 /application/accounts/views.py changed, reloading.
+2023-07-29 11:18:51,030 INFO [django.utils.autoreload:668] autoreload 117 140624899619656 Watching for file changes with StatReloader
+2023-07-29 11:29:39,359 INFO [django.utils.autoreload:266] autoreload 117 140624899619656 /application/accounts/services.py changed, reloading.
+2023-07-29 11:29:44,026 INFO [django.utils.autoreload:668] autoreload 120 139742149667656 Watching for file changes with StatReloader
+2023-07-29 11:29:54,623 ERROR [accounts.views:38] views 120 139742081538872 UserView (post) error Error on get user(s) 'User' object has no attribute 'organization'
+2023-07-29 11:29:54,626 ERROR [django.request:241] log 120 139742081538872 Internal Server Error: /accounts/users
+2023-07-29 11:30:36,951 INFO [django.utils.autoreload:266] autoreload 120 139742149667656 /application/accounts/services.py changed, reloading.
+2023-07-29 11:30:41,311 INFO [django.utils.autoreload:668] autoreload 123 140157022116680 Watching for file changes with StatReloader
+2023-07-29 11:30:53,021 INFO [django.utils.autoreload:266] autoreload 123 140157022116680 /application/accounts/services.py changed, reloading.
+2023-07-29 11:30:57,252 INFO [django.utils.autoreload:668] autoreload 125 139914433375048 Watching for file changes with StatReloader
+2023-07-29 11:31:04,517 INFO [django.utils.autoreload:266] autoreload 125 139914433375048 /application/accounts/services.py changed, reloading.
+2023-07-29 11:31:08,399 INFO [django.utils.autoreload:668] autoreload 127 140478601726792 Watching for file changes with StatReloader
+2023-07-29 11:31:13,910 ERROR [accounts.views:38] views 127 140478533598008 UserView (post) error Error on get user(s) 'User' object has no attribute 'organization'
+2023-07-29 11:31:13,913 ERROR [django.request:241] log 127 140478533598008 Internal Server Error: /accounts/users
+2023-07-29 11:31:25,809 INFO [django.utils.autoreload:266] autoreload 127 140478601726792 /application/accounts/services.py changed, reloading.
+2023-07-29 11:31:30,676 INFO [django.utils.autoreload:668] autoreload 130 140583479049032 Watching for file changes with StatReloader
+2023-07-29 11:31:42,558 INFO [django.utils.autoreload:266] autoreload 130 140583479049032 /application/accounts/services.py changed, reloading.
+2023-07-29 11:31:47,384 INFO [django.utils.autoreload:668] autoreload 133 139714462505800 Watching for file changes with StatReloader
+2023-07-29 11:32:19,327 INFO [django.utils.autoreload:266] autoreload 133 139714462505800 /application/accounts/services.py changed, reloading.
+2023-07-29 11:32:22,896 INFO [django.utils.autoreload:668] autoreload 136 140711026203464 Watching for file changes with StatReloader
+2023-07-29 11:39:00,018 INFO [django.utils.autoreload:266] autoreload 136 140711026203464 /application/accounts/services.py changed, reloading.
+2023-07-29 11:39:04,016 INFO [django.utils.autoreload:668] autoreload 139 139817290263368 Watching for file changes with StatReloader
+2023-07-29 11:48:05,966 INFO [django.utils.autoreload:266] autoreload 139 139817290263368 /application/organization/models.py changed, reloading.
+2023-07-29 11:48:07,858 INFO [django.utils.autoreload:668] autoreload 142 139820801149768 Watching for file changes with StatReloader
+2023-07-29 11:48:09,210 INFO [django.utils.autoreload:266] autoreload 142 139820801149768 /application/organization/models.py changed, reloading.
+2023-07-29 11:48:10,865 INFO [django.utils.autoreload:668] autoreload 144 140319898430280 Watching for file changes with StatReloader
+2023-07-29 11:55:33,909 INFO [django.utils.autoreload:668] autoreload 11 140483485379400 Watching for file changes with StatReloader
+2023-07-29 12:13:38,900 INFO [django.utils.autoreload:668] autoreload 13 140105059617608 Watching for file changes with StatReloader
+2023-07-29 12:14:56,545 INFO [django.utils.autoreload:668] autoreload 11 140144727808840 Watching for file changes with StatReloader
+2023-07-29 12:15:04,760 WARNING [django.request:241] log 11 140144659192632 Unauthorized: /accounts/login/token/
+2023-07-29 12:16:00,147 WARNING [django.request:241] log 11 140144659192632 Unauthorized: /accounts/users
+2023-07-29 12:16:13,266 WARNING [django.request:241] log 11 140144659192632 Unauthorized: /accounts/users
+2023-07-29 12:16:17,806 WARNING [django.request:241] log 11 140144659192632 Unauthorized: /accounts/login/token/
+2023-07-29 12:23:12,469 WARNING [django.request:241] log 11 140144659192632 Unauthorized: /accounts/users
+2023-07-29 12:23:21,571 ERROR [accounts.views:53] views 11 140144659192632 UserView (put) error Error on update user duplicate key value violates unique constraint "users_email_key"
+DETAIL:  Key (email)=(teste_user) already exists.
+
+2023-07-29 12:23:21,572 ERROR [django.request:241] log 11 140144659192632 Internal Server Error: /accounts/users
+2023-07-29 12:23:46,134 ERROR [accounts.views:53] views 11 140144659192632 UserView (put) error Error on update user duplicate key value violates unique constraint "users_email_key"
+DETAIL:  Key (email)=(teste_user) already exists.
+
+2023-07-29 12:23:46,136 ERROR [django.request:241] log 11 140144659192632 Internal Server Error: /accounts/users
+2023-07-29 12:25:49,600 INFO [django.utils.autoreload:266] autoreload 11 140144727808840 /application/accounts/services.py changed, reloading.
+2023-07-29 12:25:51,679 INFO [django.utils.autoreload:668] autoreload 47 140055786404680 Watching for file changes with StatReloader
+2023-07-29 12:27:30,017 INFO [django.utils.autoreload:266] autoreload 47 140055786404680 /application/accounts/services.py changed, reloading.
+2023-07-29 12:27:32,039 INFO [django.utils.autoreload:668] autoreload 50 139744879868744 Watching for file changes with StatReloader
+2023-07-29 12:33:27,103 INFO [django.utils.autoreload:266] autoreload 50 139744879868744 /application/accounts/services.py changed, reloading.
+2023-07-29 12:33:29,114 INFO [django.utils.autoreload:668] autoreload 52 140496664390472 Watching for file changes with StatReloader
+2023-07-29 12:33:31,453 INFO [django.utils.autoreload:266] autoreload 52 140496664390472 /application/accounts/services.py changed, reloading.
+2023-07-29 12:33:33,893 INFO [django.utils.autoreload:668] autoreload 54 139956405287752 Watching for file changes with StatReloader
+2023-07-29 12:33:36,142 INFO [django.utils.autoreload:266] autoreload 54 139956405287752 /application/accounts/services.py changed, reloading.
+2023-07-29 12:33:38,369 INFO [django.utils.autoreload:668] autoreload 56 140392063081288 Watching for file changes with StatReloader
+2023-07-29 12:33:40,802 INFO [django.utils.autoreload:266] autoreload 56 140392063081288 /application/accounts/services.py changed, reloading.
+2023-07-29 12:33:42,815 INFO [django.utils.autoreload:668] autoreload 58 140334315019080 Watching for file changes with StatReloader
+2023-07-29 12:34:39,465 INFO [django.utils.autoreload:266] autoreload 58 140334315019080 /application/accounts/services.py changed, reloading.
+2023-07-29 12:34:41,386 INFO [django.utils.autoreload:668] autoreload 60 139951840734024 Watching for file changes with StatReloader
+2023-07-29 12:35:19,235 INFO [django.utils.autoreload:266] autoreload 60 139951840734024 /application/accounts/services.py changed, reloading.
+2023-07-29 12:35:21,392 INFO [django.utils.autoreload:668] autoreload 62 140570007210824 Watching for file changes with StatReloader
+2023-07-29 12:35:27,068 INFO [django.utils.autoreload:266] autoreload 62 140570007210824 /application/accounts/services.py changed, reloading.
+2023-07-29 12:35:29,063 INFO [django.utils.autoreload:668] autoreload 64 140183765875528 Watching for file changes with StatReloader
+2023-07-29 12:36:20,964 INFO [django.utils.autoreload:266] autoreload 64 140183765875528 /application/accounts/services.py changed, reloading.
+2023-07-29 12:36:23,030 INFO [django.utils.autoreload:668] autoreload 66 139833638214472 Watching for file changes with StatReloader
+2023-07-29 12:37:37,267 INFO [django.utils.autoreload:266] autoreload 66 139833638214472 /application/accounts/services.py changed, reloading.
+2023-07-29 12:37:39,174 INFO [django.utils.autoreload:668] autoreload 68 140671245421384 Watching for file changes with StatReloader
+2023-07-29 12:37:45,562 INFO [django.utils.autoreload:266] autoreload 68 140671245421384 /application/accounts/services.py changed, reloading.
+2023-07-29 12:37:47,439 INFO [django.utils.autoreload:668] autoreload 70 140338774403912 Watching for file changes with StatReloader
+2023-07-29 12:37:49,847 INFO [django.utils.autoreload:266] autoreload 70 140338774403912 /application/accounts/services.py changed, reloading.
+2023-07-29 12:37:51,840 INFO [django.utils.autoreload:668] autoreload 72 140242032872264 Watching for file changes with StatReloader
+2023-07-29 12:38:56,281 ERROR [accounts.views:53] views 72 140241962683192 UserView (put) error Error on update user {'password': ErrorDetail(string='Password is not correct', code='invalid')}
+2023-07-29 12:38:56,282 ERROR [django.request:241] log 72 140241962683192 Internal Server Error: /accounts/users
+2023-07-29 12:39:35,137 ERROR [accounts.views:27] views 72 140241962683192 UserView (post) error Error on create users duplicate key value violates unique constraint "users_username_key"
+DETAIL:  Key (username)=(teste_admin) already exists.
+
+2023-07-29 12:39:35,139 ERROR [django.request:241] log 72 140241962683192 Internal Server Error: /accounts/users
+2023-07-29 12:40:12,989 ERROR [accounts.views:53] views 72 140241962683192 UserView (put) error Error on update user User matching query does not exist.
+2023-07-29 12:40:12,990 ERROR [django.request:241] log 72 140241962683192 Internal Server Error: /accounts/users
+2023-07-29 12:40:25,066 ERROR [accounts.views:53] views 72 140241962683192 UserView (put) error Error on update user duplicate key value violates unique constraint "users_username_key"
+DETAIL:  Key (username)=(teste_user_djs) already exists.
+
+2023-07-29 12:40:25,067 ERROR [django.request:241] log 72 140241962683192 Internal Server Error: /accounts/users
+2023-07-29 12:41:19,542 ERROR [accounts.views:53] views 72 140241962683192 UserView (put) error Error on update user null value in column "username" of relation "users" violates not-null constraint
+DETAIL:  Failing row contains (5, pbkdf2_sha256$600000$10C147RMhWuma76GhTMAjR$dcmOGYkOMN5oYY3xIR7o..., null, f, null, teste_user_djs@teste.com, , , 2023-07-29 15:40:01.159454+00, t, f, f).
+
+2023-07-29 12:41:19,544 ERROR [django.request:241] log 72 140241962683192 Internal Server Error: /accounts/users
+2023-07-29 12:41:55,869 INFO [django.utils.autoreload:266] autoreload 72 140242032872264 /application/accounts/models.py changed, reloading.
+2023-07-29 12:41:57,820 INFO [django.utils.autoreload:668] autoreload 75 140694880148296 Watching for file changes with StatReloader
+2023-07-29 12:42:34,663 INFO [django.utils.autoreload:668] autoreload 11 140019426007880 Watching for file changes with StatReloader
+2023-07-29 12:42:56,713 ERROR [accounts.views:53] views 11 140019355581240 UserView (put) error Error on update user duplicate key value violates unique constraint "users_username_key"
+DETAIL:  Key (username)=(teste_user_djs) already exists.
+
+2023-07-29 12:42:56,715 ERROR [django.request:241] log 11 140019355581240 Internal Server Error: /accounts/users
+2023-07-29 12:43:06,689 WARNING [django.request:241] log 11 140019355581240 Method Not Allowed: /accounts/users
+2023-07-29 12:43:16,457 ERROR [accounts.views:53] views 11 140019355581240 UserView (put) error Error on update user duplicate key value violates unique constraint "users_email_key"
+DETAIL:  Key (email)=(teste_user_djs@teste.com) already exists.
+
+2023-07-29 12:43:16,458 ERROR [django.request:241] log 11 140019355581240 Internal Server Error: /accounts/users
+2023-07-29 12:44:15,450 ERROR [accounts.views:53] views 11 140019355581240 UserView (put) error Error on update user duplicate key value violates unique constraint "users_username_key"
+DETAIL:  Key (username)=(teste_user_djs) already exists.
+
+2023-07-29 12:44:15,451 ERROR [django.request:241] log 11 140019355581240 Internal Server Error: /accounts/users
+2023-07-29 12:44:26,770 ERROR [accounts.views:53] views 11 140019355581240 UserView (put) error Error on update user duplicate key value violates unique constraint "users_email_key"
+DETAIL:  Key (email)=(teste_user_djs@teste.com) already exists.
+
+2023-07-29 12:44:26,772 ERROR [django.request:241] log 11 140019355581240 Internal Server Error: /accounts/users

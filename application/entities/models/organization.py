@@ -4,7 +4,7 @@ from core.utils.base import BaseClassModel
 
 class Organization(BaseClassModel):
     name = models.CharField(max_length=200)
-    identity = models.CharField(max_length=17, unique=True)
+    identity = models.CharField(max_length=22, unique=True)
     _type = models.CharField(max_length=120)
 
     class Meta:

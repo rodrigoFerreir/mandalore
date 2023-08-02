@@ -22,7 +22,16 @@ class OrganizationView(APIView):
         try:
             request.data['user_id'] = int(request.user.id)  # add user in dict data
             result = self.service.create(request.data)
+        except Exception as error:
+            logger.error(f'UserView (post) error {error}')
+            return Response({"message": f"{error}"}, status=HTTP_500_INTERNAL_SERVER_ERROR)
+        else:
+            return Response({"message": result}, status=HTTP_201_CREATED)
 
+    def get(self, request):
+        try:
+            request.data['user_id'] = int(request.user.id)  # add user in dict data
+            result = self.service.get()
         except Exception as error:
             logger.error(f'UserView (post) error {error}')
             return Response({"message": f"{error}"}, status=HTTP_500_INTERNAL_SERVER_ERROR)
