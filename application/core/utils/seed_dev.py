@@ -1,7 +1,7 @@
 import os
 import logging
 from accounts.models import User
-from organization.models import Organization
+from entities.models import Organization
 
 
 logger = logging.getLogger(__name__)

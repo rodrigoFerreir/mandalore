@@ -1,5 +1,4 @@
 import logging
-from webbrowser import get
 from rest_framework.permissions import IsAuthenticated
 from rest_framework.response import Response
 # https://www.django-rest-framework.org/api-guide/status-codes/

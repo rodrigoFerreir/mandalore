@@ -1,5 +1,5 @@
 
-from organization.models import Organization
+from entities.models import Organization
 from .models import User
 from .serializers import UserSerializer, UpdateUserSerializer
 
