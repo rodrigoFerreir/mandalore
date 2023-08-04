@@ -1,5 +1,6 @@
 
 from .models import Organization, Address, Contact
+from django.db.models import Q
 
 
 class ServiceOrganization():
@@ -43,10 +44,14 @@ class ServiceOrganization():
                 }
             }
 
-    def get(self):
+    def get(self, id: int = None):
         try:
             _result: list = []
-            for item in Organization.objects.all():
+            data_query = Organization.objects.all()
+            if id:
+                data_query = data_query.filter(Q(id=id))
+
+            for item in data_query:
                 item_address = Address.objects.filter(organization=item.id)
                 item_contact = Contact.objects.filter(organization=item.id)
                 _result.append({
@@ -80,3 +85,38 @@ class ServiceOrganization():
             raise Exception(f'Erro on get Organization {error}')
         else:
             return _result
+
+    def update(self, data_request: dict):
+        try:
+            data_request = data_request['org']
+            if item_organization := Organization.objects.filter(id=data_request.get('id')).last():
+                item_organization.name = data_request.get("name", item_organization.name)
+                item_organization.identity = data_request.get("identity", item_organization.identity)
+                item_organization._type = data_request.get("type", item_organization._type)
+                Address.objects.filter(organization=item_organization).update(
+                    street=data_request.get('address').get('street'),
+                    number=data_request.get('address').get('number'),
+                    complement=data_request.get('address').get('complement'),
+                    neighborhood=data_request.get('address').get('neighborhood'),
+                    zip_code=data_request.get('address').get('zip_code'),
+                    city=data_request.get('address').get('city'),
+                    state=data_request.get('address').get('state'),
+                    country=data_request.get('address').get('country'),
+                )
+                Contact.objects.filter(organization=item_organization).update(
+                    email=data_request.get('contact').get('email'),
+                    phone_number=data_request.get('contact').get('phone_number'),
+                )
+        except Exception as error:
+            raise Exception(f'Erro on update Organization {error}')
+        else:
+            return self.get(item_organization.id)
+
+    def delete(self, id: int = None):
+        try:
+            if item_organization := Organization.objects.filter(id=id).last():
+                item_organization.delete()
+        except Exception as error:
+            raise Exception(f'Erro on update Organization {error}')
+        else:
+            return "Item deletado!"
