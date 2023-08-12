@@ -13,6 +13,7 @@ services:
       - ./dotenv_files/.env
     depends_on:
       - psql
+    restart: always
   psql:
     container_name: psql
     image: postgres:13-alpine

@@ -1,5 +1,5 @@
 from django.db import models
-from .select_current_values_db import get_current_date_time_database, get_current_user_database
+from ..select_current_values_db import get_current_date_time_database, get_current_user_database
 
 
 class BaseClassModel(models.Model):

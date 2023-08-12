@@ -1,6 +1,4 @@
-from django.db import models
-from .organization import Organization
-from core.utils.base import BaseClassModel
+from . import models, BaseClassModel, Entity
 
 
 class Address(BaseClassModel):
@@ -12,7 +10,7 @@ class Address(BaseClassModel):
     city = models.CharField(max_length=255)
     state = models.CharField(max_length=255)
     country = models.CharField(max_length=255)
-    organization = models.ForeignKey(Organization, on_delete=models.SET_NULL, null=True, blank=True)
+    entity = models.ForeignKey(Entity, on_delete=models.SET_NULL, null=True, blank=True)
 
     class Meta:
         db_table = 'adresses'

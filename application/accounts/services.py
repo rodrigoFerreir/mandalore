@@ -1,5 +1,3 @@
-
-from entities.models import Organization
 from .models import User
 from .serializers import UserSerializer, UpdateUserSerializer
 
@@ -8,7 +6,6 @@ class ServiceUser():
     def create(self, data: dict):
         try:
             if User.objects.get(id=data['user_id']).is_admin:
-                Organization.objects.get()
                 User.objects.create_user(username=data['username'], email=data['email'], password=data['password'])
             else:
                 raise Exception('Apenas usuarios admin podem criar novos usuarios')

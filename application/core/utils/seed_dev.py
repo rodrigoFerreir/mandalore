@@ -1,7 +1,6 @@
 import os
 import logging
 from accounts.models import User
-from entities.models import Organization
 
 
 logger = logging.getLogger(__name__)
@@ -24,7 +23,7 @@ class SeedDevInitial():
         User.objects.create(username="teste_user", email="teste_user@teste.com", password='teste12340')
 
     def create_organization(self):
-        Organization.objects.create(name='TESTE')
+        ...
 
     def execute(self):
         logger.info('INICIANDO CARGA DE DADOS')
