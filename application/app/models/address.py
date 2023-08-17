@@ -10,7 +10,7 @@ class Address(BaseClassModel):
     city = models.CharField(max_length=255)
     state = models.CharField(max_length=255)
     country = models.CharField(max_length=255)
-    entity = models.ForeignKey(Entity, on_delete=models.SET_NULL, null=True, blank=True)
+    entity = models.ForeignKey(Entity, on_delete=models.SET_NULL, null=True, blank=True, related_name='address')
 
     class Meta:
         db_table = 'adresses'

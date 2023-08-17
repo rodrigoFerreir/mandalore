@@ -4,3 +4,5 @@ from core.utils.base.BaseRepository import BaseRepository
 
 from .EntityRepository import EntityRepository
 from .EntityCategoryRepository import EntityCategoryRepository
+from .AddressRepository import AddressRepository
+from .ContactRepository import ContactRepository

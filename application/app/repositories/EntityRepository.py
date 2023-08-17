@@ -6,11 +6,11 @@ class EntityRepository(BaseRepository):
 
     @classmethod
     def create(cls, name: str, cpf_cnpj: str, category: EntityCategory) -> None:
-        Entity.objects.create(name=name, cpf_cnpj=cpf_cnpj, category=category)
+        return Entity.objects.create(name=name, cpf_cnpj=cpf_cnpj, category=category)
 
     @classmethod
     def get(cls) -> List[Entity]:
-        return Entity.objects.all()
+        return Entity.objects.all().order_by("id")
 
     @classmethod
     def get_by_name(cls, name: str) -> List[Entity]:

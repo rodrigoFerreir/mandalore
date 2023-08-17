@@ -8,7 +8,7 @@ class EntityCategoryRepository(BaseRepository):
 
     @classmethod
     def create(cls, name: str) -> None:
-        EntityCategory.objects.create(name=name)
+        return EntityCategory.objects.create(name=name)
 
     @classmethod
     def get(cls) -> List[EntityCategory]:
@@ -16,7 +16,7 @@ class EntityCategoryRepository(BaseRepository):
 
     @classmethod
     def get_by_name(cls, name: str) -> List[EntityCategory]:
-        category, _ = EntityCategory.objects.get_or_create(name=name)
+        category = EntityCategory.objects.get(name=name)
         return category
 
     @classmethod
