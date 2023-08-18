@@ -1,5 +1,3 @@
-
-from organization.models import Organization
 from .models import User
 from .serializers import UserSerializer, UpdateUserSerializer
 
@@ -8,7 +6,6 @@ class ServiceUser():
     def create(self, data: dict):
         try:
             if User.objects.get(id=data['user_id']).is_admin:
-                Organization.objects.get()
                 User.objects.create_user(username=data['username'], email=data['email'], password=data['password'])
             else:
                 raise Exception('Apenas usuarios admin podem criar novos usuarios')
@@ -22,10 +19,10 @@ class ServiceUser():
             if User.objects.get(id=user_request_id).is_admin:
                 if user_filter_id:
                     user_data = User.objects.get(id=user_filter_id)
-                    return UserSerializer(user_data)
+                    return UserSerializer(user_data).data
                 else:
                     user_data = User.objects.filter(is_active=True).order_by('id')
-                    return UserSerializer(user_data, many=True)
+                    return UserSerializer(user_data, many=True).data
             else:
                 raise Exception('Apenas usuarios admin podem listar usuarios')
         except Exception as error:

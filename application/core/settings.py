@@ -46,7 +46,7 @@ INSTALLED_APPS = [
 
     # my apps
     'accounts',
-    'organization',
+    'app',
 ]
 
 MIDDLEWARE = [
@@ -138,9 +138,9 @@ LANGUAGE_CODE = 'pt-br'
 
 TIME_ZONE = 'America/Sao_Paulo'
 
-USE_I18N = True
+USE_I18N = False
 
-USE_TZ = True
+USE_TZ = False
 
 if DEBUG:
     LOG_LEVEL = 'DEBUG'

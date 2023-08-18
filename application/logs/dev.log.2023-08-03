@@ -1,0 +1,181 @@
+2023-08-03 20:56:50,302 INFO [django.utils.autoreload:668] autoreload 13 140075849694024 Watching for file changes with StatReloader
+2023-08-03 20:59:44,562 INFO [django.utils.autoreload:266] autoreload 13 140075849694024 /application/entities/services.py changed, reloading.
+2023-08-03 20:59:47,367 INFO [django.utils.autoreload:668] autoreload 15 140002836798280 Watching for file changes with StatReloader
+2023-08-03 21:00:30,657 INFO [django.utils.autoreload:266] autoreload 15 140002836798280 /application/entities/services.py changed, reloading.
+2023-08-03 21:00:33,565 INFO [django.utils.autoreload:668] autoreload 17 140115750882120 Watching for file changes with StatReloader
+2023-08-03 21:00:45,234 INFO [django.utils.autoreload:266] autoreload 17 140115750882120 /application/entities/services.py changed, reloading.
+2023-08-03 21:00:48,197 INFO [django.utils.autoreload:668] autoreload 19 140413916306248 Watching for file changes with StatReloader
+2023-08-03 21:01:07,907 INFO [django.utils.autoreload:266] autoreload 19 140413916306248 /application/entities/services.py changed, reloading.
+2023-08-03 21:01:10,196 INFO [django.utils.autoreload:668] autoreload 21 139826020571976 Watching for file changes with StatReloader
+2023-08-03 21:03:54,816 INFO [django.utils.autoreload:266] autoreload 21 139826020571976 /application/entities/views.py changed, reloading.
+2023-08-03 21:03:57,779 INFO [django.utils.autoreload:668] autoreload 23 139824074242888 Watching for file changes with StatReloader
+2023-08-03 21:04:21,581 INFO [django.utils.autoreload:266] autoreload 23 139824074242888 /application/entities/views.py changed, reloading.
+2023-08-03 21:04:24,040 INFO [django.utils.autoreload:668] autoreload 25 140035700411208 Watching for file changes with StatReloader
+2023-08-03 21:04:33,250 INFO [django.utils.autoreload:266] autoreload 25 140035700411208 /application/entities/views.py changed, reloading.
+2023-08-03 21:04:35,612 INFO [django.utils.autoreload:668] autoreload 27 140694861196104 Watching for file changes with StatReloader
+2023-08-03 21:05:02,488 INFO [django.utils.autoreload:266] autoreload 27 140694861196104 /application/entities/views.py changed, reloading.
+2023-08-03 21:05:05,097 INFO [django.utils.autoreload:668] autoreload 29 139848570891080 Watching for file changes with StatReloader
+2023-08-03 21:07:12,241 INFO [django.utils.autoreload:266] autoreload 29 139848570891080 /application/entities/services.py changed, reloading.
+2023-08-03 21:07:14,138 INFO [django.utils.autoreload:668] autoreload 31 139906646813512 Watching for file changes with StatReloader
+2023-08-03 21:08:31,775 INFO [django.utils.autoreload:266] autoreload 31 139906646813512 /application/entities/services.py changed, reloading.
+2023-08-03 21:08:33,655 INFO [django.utils.autoreload:668] autoreload 33 140567943764808 Watching for file changes with StatReloader
+2023-08-03 21:09:14,161 INFO [django.utils.autoreload:266] autoreload 33 140567943764808 /application/entities/services.py changed, reloading.
+2023-08-03 21:09:16,187 INFO [django.utils.autoreload:668] autoreload 35 139642178267976 Watching for file changes with StatReloader
+2023-08-03 21:09:32,178 INFO [django.utils.autoreload:266] autoreload 35 139642178267976 /application/entities/services.py changed, reloading.
+2023-08-03 21:09:34,179 INFO [django.utils.autoreload:668] autoreload 37 139780424194888 Watching for file changes with StatReloader
+2023-08-03 21:17:34,448 INFO [django.utils.autoreload:266] autoreload 37 139780424194888 /application/entities/services.py changed, reloading.
+2023-08-03 21:17:36,384 INFO [django.utils.autoreload:668] autoreload 39 139679339383624 Watching for file changes with StatReloader
+2023-08-03 21:19:34,012 INFO [django.utils.autoreload:266] autoreload 39 139679339383624 /application/entities/services.py changed, reloading.
+2023-08-03 21:19:35,842 INFO [django.utils.autoreload:668] autoreload 41 139752586574664 Watching for file changes with StatReloader
+2023-08-03 21:20:44,479 INFO [django.utils.autoreload:266] autoreload 41 139752586574664 /application/entities/services.py changed, reloading.
+2023-08-03 21:20:46,949 INFO [django.utils.autoreload:668] autoreload 43 140693450062664 Watching for file changes with StatReloader
+2023-08-03 21:21:59,184 INFO [django.utils.autoreload:266] autoreload 43 140693450062664 /application/entities/services.py changed, reloading.
+2023-08-03 21:22:01,109 INFO [django.utils.autoreload:668] autoreload 45 139952143604552 Watching for file changes with StatReloader
+2023-08-03 21:22:48,742 INFO [django.utils.autoreload:266] autoreload 45 139952143604552 /application/entities/services.py changed, reloading.
+2023-08-03 21:22:50,679 INFO [django.utils.autoreload:668] autoreload 47 140680822213448 Watching for file changes with StatReloader
+2023-08-03 21:23:20,823 INFO [django.utils.autoreload:266] autoreload 47 140680822213448 /application/entities/services.py changed, reloading.
+2023-08-03 21:23:23,046 INFO [django.utils.autoreload:668] autoreload 49 140617645284168 Watching for file changes with StatReloader
+2023-08-03 21:23:33,771 INFO [django.utils.autoreload:266] autoreload 49 140617645284168 /application/entities/services.py changed, reloading.
+2023-08-03 21:23:36,154 INFO [django.utils.autoreload:668] autoreload 51 139694208912200 Watching for file changes with StatReloader
+2023-08-03 21:23:38,940 INFO [django.utils.autoreload:266] autoreload 51 139694208912200 /application/entities/services.py changed, reloading.
+2023-08-03 21:23:40,942 INFO [django.utils.autoreload:668] autoreload 53 140456313486152 Watching for file changes with StatReloader
+2023-08-03 21:23:51,374 INFO [django.utils.autoreload:266] autoreload 53 140456313486152 /application/entities/services.py changed, reloading.
+2023-08-03 21:23:53,333 INFO [django.utils.autoreload:668] autoreload 55 140446189849416 Watching for file changes with StatReloader
+2023-08-03 21:29:17,700 INFO [django.utils.autoreload:266] autoreload 55 140446189849416 /application/entities/urls.py changed, reloading.
+2023-08-03 21:29:19,692 INFO [django.utils.autoreload:668] autoreload 57 139922614577992 Watching for file changes with StatReloader
+2023-08-03 21:29:27,688 INFO [django.utils.autoreload:266] autoreload 57 139922614577992 /application/entities/urls.py changed, reloading.
+2023-08-03 21:29:29,920 INFO [django.utils.autoreload:668] autoreload 59 139656469912392 Watching for file changes with StatReloader
+2023-08-03 21:29:48,553 INFO [django.utils.autoreload:266] autoreload 59 139656469912392 /application/entities/views.py changed, reloading.
+2023-08-03 21:29:50,515 INFO [django.utils.autoreload:668] autoreload 61 140175850826568 Watching for file changes with StatReloader
+2023-08-03 21:29:52,802 INFO [django.utils.autoreload:266] autoreload 61 140175850826568 /application/entities/views.py changed, reloading.
+2023-08-03 21:29:54,914 INFO [django.utils.autoreload:668] autoreload 63 140381154175816 Watching for file changes with StatReloader
+2023-08-03 21:30:00,112 INFO [django.utils.autoreload:266] autoreload 63 140381154175816 /application/entities/views.py changed, reloading.
+2023-08-03 21:30:03,621 INFO [django.utils.autoreload:668] autoreload 65 139707151133512 Watching for file changes with StatReloader
+2023-08-03 21:30:11,886 INFO [django.utils.autoreload:266] autoreload 65 139707151133512 /application/entities/views.py changed, reloading.
+2023-08-03 21:30:13,910 INFO [django.utils.autoreload:668] autoreload 67 139802206452552 Watching for file changes with StatReloader
+2023-08-03 21:30:30,890 WARNING [django.request:241] log 67 139802139548472 Not Found: /entities/organizations
+2023-08-03 21:30:56,511 INFO [django.utils.autoreload:266] autoreload 67 139802206452552 /application/entities/urls.py changed, reloading.
+2023-08-03 21:30:58,578 INFO [django.utils.autoreload:668] autoreload 70 140414498048840 Watching for file changes with StatReloader
+2023-08-03 21:30:59,328 WARNING [django.request:241] log 70 140414431284024 Unauthorized: /entities/organizations
+2023-08-03 21:31:04,089 WARNING [django.request:241] log 70 140414431284024 Unauthorized: /accounts/login/token/
+2023-08-03 21:31:22,796 WARNING [django.request:241] log 70 140414431284024 Unauthorized: /accounts/users
+2023-08-03 21:31:26,692 WARNING [django.request:241] log 70 140414431284024 Unauthorized: /accounts/login/token/
+2023-08-03 21:33:57,037 INFO [core.utils.seed_dev:30] seed_dev 85 139929111563080 INICIANDO CARGA DE DADOS
+2023-08-03 21:33:57,654 INFO [core.utils.seed_dev:34] seed_dev 85 139929111563080 CARGA DE DADOS FINALIZADA
+2023-08-03 21:38:25,928 INFO [django.utils.autoreload:668] autoreload 11 140556565420872 Watching for file changes with StatReloader
+2023-08-03 21:39:30,237 INFO [django.utils.autoreload:266] autoreload 11 140556565420872 /application/entities/services.py changed, reloading.
+2023-08-03 21:39:32,641 INFO [django.utils.autoreload:668] autoreload 14 139643559254856 Watching for file changes with StatReloader
+2023-08-03 21:43:10,311 INFO [django.utils.autoreload:266] autoreload 14 139643559254856 /application/entities/services.py changed, reloading.
+2023-08-03 21:43:14,526 INFO [django.utils.autoreload:668] autoreload 17 140011542076232 Watching for file changes with StatReloader
+2023-08-03 21:44:29,738 INFO [django.utils.autoreload:266] autoreload 17 140011542076232 /application/entities/services.py changed, reloading.
+2023-08-03 21:44:32,488 INFO [django.utils.autoreload:668] autoreload 20 140057360399176 Watching for file changes with StatReloader
+2023-08-03 21:44:34,845 INFO [django.utils.autoreload:266] autoreload 20 140057360399176 /application/entities/services.py changed, reloading.
+2023-08-03 21:44:37,680 INFO [django.utils.autoreload:668] autoreload 22 140486539152200 Watching for file changes with StatReloader
+2023-08-03 21:45:10,527 INFO [django.utils.autoreload:266] autoreload 22 140486539152200 /application/entities/views.py changed, reloading.
+2023-08-03 21:45:12,785 INFO [django.utils.autoreload:668] autoreload 25 140667999812424 Watching for file changes with StatReloader
+2023-08-03 21:45:40,108 INFO [django.utils.autoreload:266] autoreload 25 140667999812424 /application/entities/views.py changed, reloading.
+2023-08-03 21:45:42,407 INFO [django.utils.autoreload:668] autoreload 27 140576238574408 Watching for file changes with StatReloader
+2023-08-03 21:45:57,467 INFO [django.utils.autoreload:266] autoreload 27 140576238574408 /application/entities/views.py changed, reloading.
+2023-08-03 21:45:59,640 INFO [django.utils.autoreload:668] autoreload 29 139657419610952 Watching for file changes with StatReloader
+2023-08-03 21:46:00,896 ERROR [entities.views:56] views 29 139657352764216 OrganizationView (delete) error 'organization'
+2023-08-03 21:46:00,898 ERROR [django.request:241] log 29 139657352764216 Internal Server Error: /entities/organizations
+2023-08-03 21:46:12,316 INFO [django.utils.autoreload:266] autoreload 29 139657419610952 /application/entities/views.py changed, reloading.
+2023-08-03 21:46:14,498 INFO [django.utils.autoreload:668] autoreload 32 140403134057288 Watching for file changes with StatReloader
+2023-08-03 21:46:16,832 ERROR [entities.views:56] views 32 140403067181880 OrganizationView (delete) error 'organization'
+2023-08-03 21:46:16,833 ERROR [django.request:241] log 32 140403067181880 Internal Server Error: /entities/organizations
+2023-08-03 21:48:18,683 INFO [django.utils.autoreload:266] autoreload 32 140403134057288 /application/entities/views.py changed, reloading.
+2023-08-03 21:48:20,835 INFO [django.utils.autoreload:668] autoreload 35 140186936666952 Watching for file changes with StatReloader
+2023-08-03 21:48:23,097 ERROR [django.request:241] log 35 140186869799736 Internal Server Error: /entities/organizations
+Traceback (most recent call last):
+  File "/venv/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/venv/lib/python3.11/site-packages/django/core/handlers/base.py", line 220, in _get_response
+    response = response.render()
+               ^^^^^^^^^^^^^^^^^
+  File "/venv/lib/python3.11/site-packages/django/template/response.py", line 114, in render
+    self.content = self.rendered_content
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "/venv/lib/python3.11/site-packages/rest_framework/response.py", line 70, in rendered_content
+    ret = renderer.render(self.data, accepted_media_type, context)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/venv/lib/python3.11/site-packages/rest_framework/renderers.py", line 99, in render
+    ret = json.dumps(
+          ^^^^^^^^^^^
+  File "/venv/lib/python3.11/site-packages/rest_framework/utils/json.py", line 25, in dumps
+    return json.dumps(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/json/__init__.py", line 238, in dumps
+    **kw).encode(obj)
+          ^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/json/encoder.py", line 200, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/json/encoder.py", line 258, in iterencode
+    return _iterencode(o, 0)
+           ^^^^^^^^^^^^^^^^^
+  File "/venv/lib/python3.11/site-packages/rest_framework/utils/encoders.py", line 67, in default
+    return super().default(obj)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/json/encoder.py", line 180, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type module is not JSON serializable
+2023-08-03 21:49:00,237 INFO [django.utils.autoreload:266] autoreload 35 140186936666952 /application/entities/views.py changed, reloading.
+2023-08-03 21:49:02,516 INFO [django.utils.autoreload:668] autoreload 38 140658340301640 Watching for file changes with StatReloader
+2023-08-03 21:49:14,873 INFO [django.utils.autoreload:266] autoreload 38 140658340301640 /application/entities/views.py changed, reloading.
+2023-08-03 21:49:16,709 INFO [django.utils.autoreload:668] autoreload 41 140110187719496 Watching for file changes with StatReloader
+2023-08-03 21:50:02,239 INFO [django.utils.autoreload:266] autoreload 41 140110187719496 /application/entities/views.py changed, reloading.
+2023-08-03 21:50:04,285 INFO [django.utils.autoreload:668] autoreload 44 140296011107144 Watching for file changes with StatReloader
+2023-08-03 21:51:57,498 INFO [django.utils.autoreload:266] autoreload 44 140296011107144 /application/entities/views.py changed, reloading.
+2023-08-03 21:51:59,751 INFO [django.utils.autoreload:668] autoreload 47 139696767916872 Watching for file changes with StatReloader
+2023-08-03 21:52:11,208 INFO [django.utils.autoreload:266] autoreload 47 139696767916872 /application/entities/views.py changed, reloading.
+2023-08-03 21:52:13,260 INFO [django.utils.autoreload:668] autoreload 50 140243644103496 Watching for file changes with StatReloader
+2023-08-03 21:52:30,284 INFO [django.utils.autoreload:266] autoreload 50 140243644103496 /application/entities/views.py changed, reloading.
+2023-08-03 21:52:32,052 INFO [django.utils.autoreload:668] autoreload 52 140622966319944 Watching for file changes with StatReloader
+2023-08-03 21:52:42,434 INFO [django.utils.autoreload:266] autoreload 52 140622966319944 /application/entities/views.py changed, reloading.
+2023-08-03 21:52:44,649 INFO [django.utils.autoreload:668] autoreload 54 139994276567880 Watching for file changes with StatReloader
+2023-08-03 21:53:09,519 INFO [django.utils.autoreload:266] autoreload 54 139994276567880 /application/entities/views.py changed, reloading.
+2023-08-03 21:53:11,703 INFO [django.utils.autoreload:668] autoreload 56 140397913221960 Watching for file changes with StatReloader
+2023-08-03 21:53:17,296 INFO [django.utils.autoreload:266] autoreload 56 140397913221960 /application/entities/views.py changed, reloading.
+2023-08-03 21:53:19,652 INFO [django.utils.autoreload:668] autoreload 58 140126777736008 Watching for file changes with StatReloader
+2023-08-03 21:53:25,622 ERROR [django.request:241] log 58 140126710786872 Internal Server Error: /entities/organizations
+Traceback (most recent call last):
+  File "/venv/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/venv/lib/python3.11/site-packages/django/core/handlers/base.py", line 220, in _get_response
+    response = response.render()
+               ^^^^^^^^^^^^^^^^^
+  File "/venv/lib/python3.11/site-packages/django/template/response.py", line 114, in render
+    self.content = self.rendered_content
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "/venv/lib/python3.11/site-packages/rest_framework/response.py", line 70, in rendered_content
+    ret = renderer.render(self.data, accepted_media_type, context)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/venv/lib/python3.11/site-packages/rest_framework/renderers.py", line 99, in render
+    ret = json.dumps(
+          ^^^^^^^^^^^
+  File "/venv/lib/python3.11/site-packages/rest_framework/utils/json.py", line 25, in dumps
+    return json.dumps(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/json/__init__.py", line 238, in dumps
+    **kw).encode(obj)
+          ^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/json/encoder.py", line 200, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/json/encoder.py", line 258, in iterencode
+    return _iterencode(o, 0)
+           ^^^^^^^^^^^^^^^^^
+  File "/venv/lib/python3.11/site-packages/rest_framework/utils/encoders.py", line 67, in default
+    return super().default(obj)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/json/encoder.py", line 180, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type module is not JSON serializable
+2023-08-03 21:53:57,402 INFO [django.utils.autoreload:266] autoreload 58 140126777736008 /application/entities/views.py changed, reloading.
+2023-08-03 21:53:59,529 INFO [django.utils.autoreload:668] autoreload 61 139702558038856 Watching for file changes with StatReloader
+2023-08-03 21:54:09,301 INFO [django.utils.autoreload:266] autoreload 61 139702558038856 /application/entities/views.py changed, reloading.
+2023-08-03 21:54:11,366 INFO [django.utils.autoreload:668] autoreload 64 139657641884488 Watching for file changes with StatReloader
+2023-08-03 21:54:13,599 INFO [django.utils.autoreload:266] autoreload 64 139657641884488 /application/entities/views.py changed, reloading.
+2023-08-03 21:54:15,708 INFO [django.utils.autoreload:668] autoreload 66 139797869255496 Watching for file changes with StatReloader
