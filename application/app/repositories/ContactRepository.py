@@ -18,7 +18,9 @@ class ContactRepository(BaseRepository):
 
     @classmethod
     def update(cls, _id: int, email: str, phone_number: str, entity: Entity) -> None:
-        Contact.objects.filter(id=_id).update(email=email, phone_number=phone_number, entity=entity)
+        Contact.objects.filter(id=_id).update(
+            email=email, phone_number=phone_number, entity=entity)
 
+    @classmethod
     def delete(cls, _id: int) -> None:
         Contact.objects.get(id=_id).delete()

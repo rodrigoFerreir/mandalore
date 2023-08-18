@@ -1,12 +1,12 @@
-from django.db import models
-from application.core.utils.base.base import BaseClassModel
-from . import Category
+from . import *
 
 
 class Product(BaseClassModel):
     name = models.CharField(max_length=200)
-    price = models.DecimalField(max_digits=8)
-    category = models.ForeignKey(Category, on_delete=models.CASCADE)
+    price = models.DecimalField(max_digits=8, decimal_places=6)
+    category = models.ForeignKey(
+        ProductCategory, on_delete=models.CASCADE, related_name="products"
+    )
 
     class Meta:
         db_table = 'products'

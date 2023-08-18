@@ -4,7 +4,7 @@ from . import *
 
 class ServiceEntity(BaseService):
 
-    def __init__(self, data=dict) -> None:
+    def __init__(self, data: dict = None) -> None:
         self.data_entity = data
         self.data_address = data.get('address')
         self.data_contact = data.get('contact')
@@ -19,7 +19,8 @@ class ServiceEntity(BaseService):
             instance_entity = self.repository.create(
                 name=self.data_entity['name'],
                 cpf_cnpj=self.data_entity['cpf_cnpj'],
-                category=self.category_repository.get_by_name(self.data_entity["category"]),
+                category=self.category_repository.get_by_name(
+                    self.data_entity["category"]),
             )
             self.address_repository.create(
                 street=self.data_address['street'],
@@ -36,7 +37,6 @@ class ServiceEntity(BaseService):
                 email=self.data_contact["email"],
                 phone_number=self.data_contact["phone_number"],
                 entity=instance_entity,
-
             )
         except Exception as error:
             raise Exception(f'Error on create Organization {error}')
@@ -51,44 +51,54 @@ class ServiceEntity(BaseService):
             data_query = self.repository.get()
             for item in data_query:
                 data = EntitySerializer(item).data
-                data['addresses'] = [AddressSerializer(a).data for a in self.address_repository.get_by_entity(item.id)]
-                data['contacts'] = [ContactSerializer(c).data for c in self.contact_repository.get_by_entity(item.id)]
+                data['addresses'] = [
+                    AddressSerializer(a).data for a in item.addresses]
+                data['contacts'] = [
+                    ContactSerializer(c).data for c in item.contacts
+                ]
                 _result.append(data)
         except Exception as error:
             raise Exception(f'Erro on get Entities {error}')
         else:
             return _result
 
-    def update(self, data_request: dict):
+    def update(self):
         try:
-            data_request = data_request['org']
-            if item_organization := Organization.objects.filter(id=data_request.get('id')).last():
-                item_organization.name = data_request.get("name", item_organization.name)
-                item_organization.identity = data_request.get("identity", item_organization.identity)
-                item_organization._type = data_request.get("type", item_organization._type)
-                Address.objects.filter(organization=item_organization).update(
-                    street=data_request.get('address').get('street'),
-                    number=data_request.get('address').get('number'),
-                    complement=data_request.get('address').get('complement'),
-                    neighborhood=data_request.get('address').get('neighborhood'),
-                    zip_code=data_request.get('address').get('zip_code'),
-                    city=data_request.get('address').get('city'),
-                    state=data_request.get('address').get('state'),
-                    country=data_request.get('address').get('country'),
+            instance_entity = self.repository.update(
+                _id=self.data_entity.get("id"),
+                name=self.data_entity.get('name'),
+                cpf_cnpj=self.data_entity.get('cpf_cnpj'),
+                category=self.category_repository.get_by_name(
+                    self.data_entity.get("category")
                 )
-                Contact.objects.filter(organization=item_organization).update(
-                    email=data_request.get('contact').get('email'),
-                    phone_number=data_request.get('contact').get('phone_number'),
-                )
+            )
+            self.address_repository.update(
+                _id=self.data_address.get("id"),
+                street=self.data_address.get('street'),
+                number=self.data_address.get('number'),
+                complement=self.data_address.get('complement'),
+                neighborhood=self.data_address.get('neighborhood'),
+                zip_code=self.data_address.get('zip_code'),
+                city=self.data_address.get('city'),
+                state=self.data_address.get('state'),
+                country=self.data_address.get('country'),
+                entity=instance_entity,
+            )
+            self.contact_repository.update(
+                email=self.data_contact["email"],
+                phone_number=self.data_contact["phone_number"],
+                entity=instance_entity,
+            )
         except Exception as error:
             raise Exception(f'Erro on update Organization {error}')
         else:
-            return self.get(item_organization.id)
+            return {
+                'message': 'Entidade atualizada com sucesso!',
+            }
 
     def delete(self, id: int = None):
         try:
-            if item_organization := Organization.objects.filter(id=id).last():
-                item_organization.delete()
+            self.repository.delete(_id=id)
         except Exception as error:
             raise Exception(f'Erro on update Organization {error}')
         else:

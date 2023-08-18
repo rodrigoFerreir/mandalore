@@ -1,13 +1,13 @@
 from . import *
 
 
-class ViewEntity(APIView):
+class ViewProduct(APIView):
     permission_classes = [IsAuthenticated]
 
     def post(self, request):
         try:
             request.data['user_id'] = int(request.user.id)
-            result = ServiceEntity(request.data).create()
+            result = ServiceProduct(request.data).create()
 
         except Exception as error:
             logger.error(f'ViewEntity (post) error {error}')
@@ -18,7 +18,7 @@ class ViewEntity(APIView):
     def get(self, request):
         try:
             request.data['user_id'] = int(request.user.id)
-            result = ServiceEntity(request.data).get()
+            result = ServiceProduct(request.data).get()
         except Exception as error:
             logger.error(f'ViewEntity (get) error {error}')
             return Response({"message": f"{error}"}, status=HTTP_500_INTERNAL_SERVER_ERROR)
@@ -27,7 +27,7 @@ class ViewEntity(APIView):
 
     def put(self, request):
         try:
-            result = ServiceEntity(request.data).update()
+            result = ServiceProduct(request.data).update()
         except Exception as error:
             logger.error(f'ViewEntity (put) error {error}')
             return Response({"message": f"{error}"}, status=HTTP_500_INTERNAL_SERVER_ERROR)
@@ -36,7 +36,7 @@ class ViewEntity(APIView):
 
     def delete(self, request):
         try:
-            result = ServiceEntity().delete(id=int(request.query_params.get('id')))
+            result = ServiceProduct().delete(id=int(request.query_params.get('id')))
         except Exception as error:
             logger.error(f'ViewEntity (delete) error {error}')
             return Response({"message": f"{error}"}, status=HTTP_500_INTERNAL_SERVER_ERROR)

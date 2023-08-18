@@ -23,5 +23,6 @@ class EntityCategoryRepository(BaseRepository):
     def update(cls, _id: int, name: str) -> None:
         EntityCategory.objects.filter(id=_id).update(name=name)
 
+    @classmethod
     def delete(cls, _id: int) -> None:
         EntityCategory.objects.get(id=_id).delete()

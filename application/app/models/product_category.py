@@ -1,5 +1,4 @@
-from django.db import models
-from application.core.utils.base.base import BaseClassModel
+from . import *
 
 
 class ProductCategory(BaseClassModel):

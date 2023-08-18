@@ -63,5 +63,6 @@ class AddressRepository(BaseRepository):
             entity=entity
         )
 
+    @classmethod
     def delete(cls, _id: int) -> None:
         Address.objects.get(id=_id).delete()
