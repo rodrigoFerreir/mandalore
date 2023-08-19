@@ -3,8 +3,8 @@ from core.utils.base.BaseClassModel import BaseClassModel
 
 # initialize models
 from .EntityCategory import EntityCategory
-from .entity import Entity
-from .address import Address
-from .contact import Contact
-from .product_category import ProductCategory
-from .product import Product
+from .Entity import Entity
+from .Address import Address
+from .Contact import Contact
+from .ProductCategory import ProductCategory
+from .Product import Product
