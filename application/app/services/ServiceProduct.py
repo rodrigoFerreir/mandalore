@@ -46,17 +46,30 @@ class ServiceProduct(BaseService):
 
     def update(self):
         try:
-            ...
+            try:
+                category = self.category_repository.get_by_name(
+                    self.data_product["category"]
+                )
+            except:
+                category = self.category_repository.create(
+                    self.data_product["category"]
+                )
+
+            self.repository.update(
+                name=self.data_product['name'],
+                price=self.data_product['price'],
+                category=category
+            )
         except Exception as error:
             raise Exception(f'Erro on update Organization {error}')
         else:
             return {
-                'message': 'Entidade atualizada com sucesso!',
+                'message': 'Produto atualizado com sucesso!',
             }
 
-    def delete(self, id: int = None):
+    def delete(self, id: int):
         try:
-            ...
+            self.repository.delete(_id=id)
         except Exception as error:
             raise Exception(f'Erro on update Organization {error}')
         else:
