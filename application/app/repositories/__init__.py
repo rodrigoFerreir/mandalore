@@ -8,5 +8,5 @@ from .AddressRepository import AddressRepository
 from .ContactRepository import ContactRepository
 from .ProductRepository import ProductRepository
 from .ProductCategoryRepository import ProductCategoryRepository
-from .ItemOrderRepository import ItemOrderRepository
 from .OrderRepository import OrderRepository
+from .ItemOrderRepository import ItemOrderRepository

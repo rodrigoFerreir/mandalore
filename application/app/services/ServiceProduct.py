@@ -1,4 +1,3 @@
-from app.serializers import *
 from . import *
 
 

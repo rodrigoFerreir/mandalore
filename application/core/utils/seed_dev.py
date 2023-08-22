@@ -27,7 +27,10 @@ class SeedDevInitial():
 
     def execute(self):
         logger.info('INICIANDO CARGA DE DADOS')
-        self.create_super_users()
-        self.create_normal_users()
+        try:
+            self.create_super_users()
+            self.create_normal_users()
+        except:
+            logger.info("Usuarios já foram criados")
         self.create_organization()
         logger.info("CARGA DE DADOS FINALIZADA")

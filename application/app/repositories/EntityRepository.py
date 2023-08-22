@@ -17,8 +17,8 @@ class EntityRepository(BaseRepository):
         return Entity.objects.filter(name=name).order_by("id")
 
     @classmethod
-    def get_by_cpf_cnpj(cls, cpf_cnpj: str) -> List[Entity]:
-        return Entity.objects.filter(cpf_cnpj=cpf_cnpj).order_by("id")
+    def get_by_cpf_cnpj(cls, cpf_cnpj: str) -> Entity:
+        return Entity.objects.filter(cpf_cnpj=cpf_cnpj).last()
 
     @classmethod
     def update(cls, _id: int, name: str, cpf_cnpj: str, category: EntityCategory) -> None:
