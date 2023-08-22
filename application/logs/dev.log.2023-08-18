@@ -1,0 +1,3 @@
+2023-08-18 22:59:01,417 INFO [core.utils.seed_dev:29] seed_dev 10 140692629453640 INICIANDO CARGA DE DADOS
+2023-08-18 22:59:02,148 INFO [core.utils.seed_dev:33] seed_dev 10 140692629453640 CARGA DE DADOS FINALIZADA
+2023-08-18 22:59:06,571 INFO [django.utils.autoreload:668] autoreload 12 140308779133768 Watching for file changes with StatReloader

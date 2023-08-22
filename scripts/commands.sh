@@ -16,7 +16,7 @@ python manage.py migrate --noinput
 if [ "$DEBUG" = "1" ]; then 
     echo 'DEBUB MODE ACTIVATED'
 
-  docker exec python manage.py shell -c "from core.utils.seed_dev import SeedDevInitial; from accounts.models import User; x = SeedDevInitial().execute() if len (User.objects.all()) == 0 else SeedDevInitial().execute()"
+  python manage.py shell -c "from core.utils.seed_dev import SeedDevInitial; from accounts.models import User; x = SeedDevInitial().execute() if len (User.objects.all()) == 0 else SeedDevInitial().execute()"
 fi
 
 python manage.py runserver 0.0.0.0:8000

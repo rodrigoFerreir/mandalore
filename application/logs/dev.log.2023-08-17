@@ -1,0 +1,135 @@
+2023-08-17 19:07:02,898 INFO [django.utils.autoreload:668] autoreload 16 139752555613000 Watching for file changes with StatReloader
+2023-08-17 19:07:59,897 INFO [django.utils.autoreload:266] autoreload 16 139752555613000 /application/app/services/ServiceEntity.py changed, reloading.
+2023-08-17 19:08:02,453 INFO [django.utils.autoreload:668] autoreload 19 140361857370952 Watching for file changes with StatReloader
+2023-08-17 19:09:42,809 INFO [django.utils.autoreload:266] autoreload 19 140361857370952 /application/app/services/ServiceEntity.py changed, reloading.
+2023-08-17 19:09:45,386 INFO [django.utils.autoreload:668] autoreload 21 139782945073992 Watching for file changes with StatReloader
+2023-08-17 19:09:59,680 INFO [django.utils.autoreload:266] autoreload 21 139782945073992 /application/app/services/ServiceEntity.py changed, reloading.
+2023-08-17 19:10:02,406 INFO [django.utils.autoreload:668] autoreload 23 140704271555400 Watching for file changes with StatReloader
+2023-08-17 19:10:16,343 INFO [django.utils.autoreload:266] autoreload 23 140704271555400 /application/app/services/ServiceEntity.py changed, reloading.
+2023-08-17 19:10:18,485 INFO [django.utils.autoreload:668] autoreload 25 140555270728520 Watching for file changes with StatReloader
+2023-08-17 19:10:44,444 INFO [django.utils.autoreload:266] autoreload 25 140555270728520 /application/app/services/ServiceEntity.py changed, reloading.
+2023-08-17 19:10:46,604 INFO [django.utils.autoreload:668] autoreload 27 139981446302536 Watching for file changes with StatReloader
+2023-08-17 19:11:28,048 INFO [django.utils.autoreload:266] autoreload 27 139981446302536 /application/app/services/ServiceEntity.py changed, reloading.
+2023-08-17 19:11:30,480 INFO [django.utils.autoreload:668] autoreload 29 140364807306056 Watching for file changes with StatReloader
+2023-08-17 19:11:35,605 INFO [django.utils.autoreload:266] autoreload 29 140364807306056 /application/app/services/ServiceEntity.py changed, reloading.
+2023-08-17 19:11:38,416 INFO [django.utils.autoreload:668] autoreload 31 140487771245384 Watching for file changes with StatReloader
+2023-08-17 19:11:55,636 INFO [django.utils.autoreload:266] autoreload 31 140487771245384 /application/app/services/ServiceEntity.py changed, reloading.
+2023-08-17 19:11:58,729 INFO [django.utils.autoreload:668] autoreload 33 139787516177224 Watching for file changes with StatReloader
+2023-08-17 19:12:18,332 INFO [django.utils.autoreload:266] autoreload 33 139787516177224 /application/app/services/ServiceEntity.py changed, reloading.
+2023-08-17 19:12:21,069 INFO [django.utils.autoreload:668] autoreload 35 139736310135624 Watching for file changes with StatReloader
+2023-08-17 19:12:54,468 INFO [django.utils.autoreload:266] autoreload 35 139736310135624 /application/app/services/ServiceEntity.py changed, reloading.
+2023-08-17 19:12:56,866 INFO [django.utils.autoreload:668] autoreload 37 140070967704392 Watching for file changes with StatReloader
+2023-08-17 19:13:03,503 INFO [django.utils.autoreload:266] autoreload 37 140070967704392 /application/app/services/ServiceEntity.py changed, reloading.
+2023-08-17 19:13:06,260 INFO [django.utils.autoreload:668] autoreload 39 140333220240200 Watching for file changes with StatReloader
+2023-08-17 19:13:37,215 INFO [django.utils.autoreload:266] autoreload 39 140333220240200 /application/app/services/ServiceEntity.py changed, reloading.
+2023-08-17 19:13:39,294 INFO [django.utils.autoreload:668] autoreload 41 140345504140104 Watching for file changes with StatReloader
+2023-08-17 19:13:59,901 INFO [django.utils.autoreload:266] autoreload 41 140345504140104 /application/app/services/ServiceEntity.py changed, reloading.
+2023-08-17 19:14:01,976 INFO [django.utils.autoreload:668] autoreload 43 140367862422344 Watching for file changes with StatReloader
+2023-08-17 19:14:06,468 INFO [django.utils.autoreload:266] autoreload 43 140367862422344 /application/app/services/ServiceEntity.py changed, reloading.
+2023-08-17 19:14:09,106 INFO [django.utils.autoreload:668] autoreload 45 140179739654984 Watching for file changes with StatReloader
+2023-08-17 19:14:35,676 INFO [django.utils.autoreload:266] autoreload 45 140179739654984 /application/app/services/ServiceEntity.py changed, reloading.
+2023-08-17 19:14:37,838 INFO [django.utils.autoreload:668] autoreload 47 140047097236296 Watching for file changes with StatReloader
+2023-08-17 19:14:41,854 INFO [django.utils.autoreload:266] autoreload 47 140047097236296 /application/app/services/ServiceEntity.py changed, reloading.
+2023-08-17 19:14:44,691 INFO [django.utils.autoreload:668] autoreload 49 139796978219848 Watching for file changes with StatReloader
+2023-08-17 19:15:29,396 INFO [django.utils.autoreload:266] autoreload 49 139796978219848 /application/app/services/ServiceEntity.py changed, reloading.
+2023-08-17 19:15:32,620 INFO [django.utils.autoreload:668] autoreload 51 140542768204616 Watching for file changes with StatReloader
+2023-08-17 19:16:26,341 INFO [django.utils.autoreload:266] autoreload 51 140542768204616 /application/app/api/ViewEntity.py changed, reloading.
+2023-08-17 19:16:28,612 INFO [django.utils.autoreload:668] autoreload 53 140023387458376 Watching for file changes with StatReloader
+2023-08-17 19:19:09,248 INFO [django.utils.autoreload:266] autoreload 53 140023387458376 /application/app/services/ServiceEntity.py changed, reloading.
+2023-08-17 19:19:12,282 INFO [django.utils.autoreload:668] autoreload 55 140554122017608 Watching for file changes with StatReloader
+2023-08-17 19:19:27,723 INFO [django.utils.autoreload:266] autoreload 55 140554122017608 /application/app/api/ViewEntity.py changed, reloading.
+2023-08-17 19:19:30,268 INFO [django.utils.autoreload:668] autoreload 57 140678437075784 Watching for file changes with StatReloader
+2023-08-17 19:19:44,205 INFO [django.utils.autoreload:266] autoreload 57 140678437075784 /application/app/api/ViewEntity.py changed, reloading.
+2023-08-17 19:19:47,208 INFO [django.utils.autoreload:668] autoreload 59 140433922030408 Watching for file changes with StatReloader
+2023-08-17 19:19:56,286 INFO [django.utils.autoreload:266] autoreload 59 140433922030408 /application/app/services/ServiceEntity.py changed, reloading.
+2023-08-17 19:19:59,148 INFO [django.utils.autoreload:668] autoreload 61 139972552022856 Watching for file changes with StatReloader
+2023-08-17 19:20:14,013 INFO [django.utils.autoreload:266] autoreload 61 139972552022856 /application/app/api/ViewEntity.py changed, reloading.
+2023-08-17 19:20:17,010 INFO [django.utils.autoreload:668] autoreload 63 140070097017672 Watching for file changes with StatReloader
+2023-08-17 19:20:28,941 INFO [django.utils.autoreload:266] autoreload 63 140070097017672 /application/app/api/ViewEntity.py changed, reloading.
+2023-08-17 19:20:31,827 INFO [django.utils.autoreload:668] autoreload 65 139649835391816 Watching for file changes with StatReloader
+2023-08-17 19:23:33,936 INFO [django.utils.autoreload:266] autoreload 65 139649835391816 /application/app/services/ServiceEntity.py changed, reloading.
+2023-08-17 19:23:36,434 INFO [django.utils.autoreload:668] autoreload 67 139965430123336 Watching for file changes with StatReloader
+2023-08-17 19:25:39,294 INFO [django.utils.autoreload:266] autoreload 67 139965430123336 /application/app/models/__init__.py changed, reloading.
+2023-08-17 19:25:42,444 INFO [django.utils.autoreload:668] autoreload 69 140157912484680 Watching for file changes with StatReloader
+2023-08-17 19:26:20,490 INFO [django.utils.autoreload:266] autoreload 69 140157912484680 /application/app/models/product_category.py changed, reloading.
+2023-08-17 19:26:23,713 INFO [django.utils.autoreload:668] autoreload 71 140271616748360 Watching for file changes with StatReloader
+2023-08-17 19:26:46,049 INFO [django.utils.autoreload:266] autoreload 71 140271616748360 /application/app/models/product.py changed, reloading.
+2023-08-17 19:26:48,501 INFO [django.utils.autoreload:668] autoreload 73 140426705283912 Watching for file changes with StatReloader
+2023-08-17 19:26:59,022 INFO [django.utils.autoreload:266] autoreload 73 140426705283912 /application/app/models/product.py changed, reloading.
+2023-08-17 19:27:01,421 INFO [django.utils.autoreload:668] autoreload 75 139812459920200 Watching for file changes with StatReloader
+2023-08-17 19:27:21,136 INFO [django.utils.autoreload:266] autoreload 75 139812459920200 /application/app/models/product.py changed, reloading.
+2023-08-17 19:27:24,087 INFO [django.utils.autoreload:668] autoreload 77 140247346608968 Watching for file changes with StatReloader
+2023-08-17 19:27:51,345 INFO [django.utils.autoreload:266] autoreload 77 140247346608968 /application/app/models/product.py changed, reloading.
+2023-08-17 19:27:54,567 INFO [django.utils.autoreload:668] autoreload 79 140280387685192 Watching for file changes with StatReloader
+2023-08-17 19:28:08,369 INFO [django.utils.autoreload:266] autoreload 79 140280387685192 /application/app/models/product.py changed, reloading.
+2023-08-17 19:28:10,879 INFO [django.utils.autoreload:668] autoreload 81 140097389763400 Watching for file changes with StatReloader
+2023-08-17 19:28:26,916 INFO [django.utils.autoreload:266] autoreload 81 140097389763400 /application/app/models/product.py changed, reloading.
+2023-08-17 19:28:29,423 INFO [django.utils.autoreload:668] autoreload 83 139861487909704 Watching for file changes with StatReloader
+2023-08-17 19:29:14,416 INFO [django.utils.autoreload:266] autoreload 83 139861487909704 /application/app/models/product.py changed, reloading.
+2023-08-17 19:29:17,246 INFO [django.utils.autoreload:668] autoreload 85 139819739962184 Watching for file changes with StatReloader
+2023-08-17 19:34:26,754 INFO [django.utils.autoreload:266] autoreload 85 139819739962184 /application/app/repositories/EntityRepository.py changed, reloading.
+2023-08-17 19:34:29,890 INFO [django.utils.autoreload:668] autoreload 87 140173148687176 Watching for file changes with StatReloader
+2023-08-17 19:34:36,002 INFO [django.utils.autoreload:266] autoreload 87 140173148687176 /application/app/repositories/EntityCategoryRepository.py changed, reloading.
+2023-08-17 19:34:40,076 INFO [django.utils.autoreload:668] autoreload 89 139708643285832 Watching for file changes with StatReloader
+2023-08-17 19:34:46,533 INFO [django.utils.autoreload:266] autoreload 89 139708643285832 /application/app/repositories/ContactRepository.py changed, reloading.
+2023-08-17 19:34:50,596 INFO [django.utils.autoreload:668] autoreload 91 139905435929416 Watching for file changes with StatReloader
+2023-08-17 19:34:56,031 INFO [django.utils.autoreload:266] autoreload 91 139905435929416 /application/app/repositories/AddressRepository.py changed, reloading.
+2023-08-17 19:34:58,873 INFO [django.utils.autoreload:668] autoreload 93 140555267189576 Watching for file changes with StatReloader
+2023-08-17 19:41:24,961 INFO [django.utils.autoreload:266] autoreload 93 140555267189576 /application/app/serializers/__init__.py changed, reloading.
+2023-08-17 19:41:27,379 INFO [django.utils.autoreload:668] autoreload 95 140232220789576 Watching for file changes with StatReloader
+2023-08-17 19:42:09,141 INFO [django.utils.autoreload:266] autoreload 95 140232220789576 /application/app/repositories/__init__.py changed, reloading.
+2023-08-17 19:42:11,339 INFO [django.utils.autoreload:668] autoreload 97 140339522468680 Watching for file changes with StatReloader
+2023-08-17 19:42:33,084 INFO [django.utils.autoreload:266] autoreload 97 140339522468680 /application/app/repositories/__init__.py changed, reloading.
+2023-08-17 19:42:35,827 INFO [django.utils.autoreload:668] autoreload 99 139671460408136 Watching for file changes with StatReloader
+2023-08-17 19:42:41,252 INFO [django.utils.autoreload:266] autoreload 99 139671460408136 /application/app/repositories/ProductCategoryRepository.py changed, reloading.
+2023-08-17 19:42:43,572 INFO [django.utils.autoreload:668] autoreload 101 139646074075976 Watching for file changes with StatReloader
+2023-08-17 19:43:05,157 INFO [django.utils.autoreload:266] autoreload 101 139646074075976 /application/app/services/__init__.py changed, reloading.
+2023-08-17 19:43:07,577 INFO [django.utils.autoreload:668] autoreload 103 140593877310280 Watching for file changes with StatReloader
+2023-08-17 19:45:17,965 INFO [django.utils.autoreload:266] autoreload 103 140593877310280 /application/app/serializers/__init__.py changed, reloading.
+2023-08-17 19:45:20,049 INFO [django.utils.autoreload:668] autoreload 105 140433650510664 Watching for file changes with StatReloader
+2023-08-17 21:50:26,085 INFO [django.utils.autoreload:668] autoreload 11 139888714828616 Watching for file changes with StatReloader
+2023-08-17 21:51:04,563 WARNING [django.request:241] log 11 139888647936824 Unauthorized: /app/entities
+2023-08-17 21:51:30,283 ERROR [app.api:23] ViewEntity 11 139888647936824 ViewEntity (get) error 'module' object is not callable
+2023-08-17 21:51:30,285 ERROR [django.request:241] log 11 139888647936824 Internal Server Error: /app/entities
+2023-08-17 21:52:17,982 INFO [django.utils.autoreload:266] autoreload 11 139888714828616 /application/app/api/ViewEntity.py changed, reloading.
+2023-08-17 21:52:20,518 INFO [django.utils.autoreload:668] autoreload 14 140652489972552 Watching for file changes with StatReloader
+2023-08-17 21:52:28,898 INFO [django.utils.autoreload:266] autoreload 14 140652489972552 /application/app/api/ViewProduct.py changed, reloading.
+2023-08-17 21:52:31,622 INFO [django.utils.autoreload:668] autoreload 16 140432949660488 Watching for file changes with StatReloader
+2023-08-17 21:52:46,867 INFO [django.utils.autoreload:266] autoreload 16 140432949660488 /application/app/services/__init__.py changed, reloading.
+2023-08-17 21:52:49,842 INFO [django.utils.autoreload:668] autoreload 18 140364724927304 Watching for file changes with StatReloader
+2023-08-17 21:53:14,203 INFO [django.utils.autoreload:266] autoreload 18 140364724927304 /application/app/services/__init__.py changed, reloading.
+2023-08-17 21:53:16,670 INFO [django.utils.autoreload:668] autoreload 20 140211121687368 Watching for file changes with StatReloader
+2023-08-17 21:53:25,880 INFO [django.utils.autoreload:266] autoreload 20 140211121687368 /application/app/services/ServiceProduct.py changed, reloading.
+2023-08-17 21:53:27,924 INFO [django.utils.autoreload:668] autoreload 22 140125489662792 Watching for file changes with StatReloader
+2023-08-17 21:53:46,933 WARNING [django.request:241] log 22 140125422762808 Not Found: /entities/organizations
+2023-08-17 21:53:53,283 WARNING [django.request:241] log 22 140125422762808 Not Found: /entities
+2023-08-17 21:54:01,114 ERROR [app.api:41] ViewEntity 22 140125422762808 ViewEntity (delete) error 'NoneType' object has no attribute 'get'
+2023-08-17 21:54:01,116 ERROR [django.request:241] log 22 140125422762808 Internal Server Error: /app/entities
+2023-08-17 21:54:21,343 ERROR [app.api:13] ViewProduct 22 140125422762808 ViewEntity (post) error Error on create Organization 'ServiceProduct' object has no attribute 'data_entity'
+2023-08-17 21:54:21,345 ERROR [django.request:241] log 22 140125422762808 Internal Server Error: /app/products
+2023-08-17 21:55:03,730 INFO [django.utils.autoreload:266] autoreload 22 140125489662792 /application/app/services/ServiceProduct.py changed, reloading.
+2023-08-17 21:55:05,829 INFO [django.utils.autoreload:668] autoreload 25 140661484198728 Watching for file changes with StatReloader
+2023-08-17 21:55:09,007 ERROR [app.api:13] ViewProduct 25 140661417278264 ViewEntity (post) error Error on create Organization Cannot assign "<QuerySet []>": "Product.category" must be a "ProductCategory" instance.
+2023-08-17 21:55:09,009 ERROR [django.request:241] log 25 140661417278264 Internal Server Error: /app/products
+2023-08-17 21:55:16,660 INFO [django.utils.autoreload:266] autoreload 25 140661484198728 /application/app/services/ServiceProduct.py changed, reloading.
+2023-08-17 21:55:18,884 INFO [django.utils.autoreload:668] autoreload 28 139625365080904 Watching for file changes with StatReloader
+2023-08-17 21:58:37,613 INFO [django.utils.autoreload:266] autoreload 28 139625365080904 /application/app/services/ServiceProduct.py changed, reloading.
+2023-08-17 21:58:39,799 INFO [django.utils.autoreload:668] autoreload 31 140185458469704 Watching for file changes with StatReloader
+2023-08-17 21:59:04,562 INFO [django.utils.autoreload:266] autoreload 31 140185458469704 /application/app/services/ServiceProduct.py changed, reloading.
+2023-08-17 21:59:06,688 INFO [django.utils.autoreload:668] autoreload 33 139785309915976 Watching for file changes with StatReloader
+2023-08-17 21:59:35,877 INFO [django.utils.autoreload:266] autoreload 33 139785309915976 /application/app/services/ServiceProduct.py changed, reloading.
+2023-08-17 21:59:37,913 INFO [django.utils.autoreload:668] autoreload 35 140475282918216 Watching for file changes with StatReloader
+2023-08-17 21:59:44,730 INFO [django.utils.autoreload:266] autoreload 35 140475282918216 /application/app/services/ServiceProduct.py changed, reloading.
+2023-08-17 21:59:46,865 INFO [django.utils.autoreload:668] autoreload 37 140382057679688 Watching for file changes with StatReloader
+2023-08-17 22:01:07,778 ERROR [app.api:13] ViewProduct 37 140381990738744 ViewEntity (post) error Error on create Organization Cannot assign "<QuerySet []>": "Product.category" must be a "ProductCategory" instance.
+2023-08-17 22:01:07,780 ERROR [django.request:241] log 37 140381990738744 Internal Server Error: /app/products
+2023-08-17 22:01:38,796 INFO [django.utils.autoreload:266] autoreload 37 140382057679688 /application/app/repositories/ProductCategoryRepository.py changed, reloading.
+2023-08-17 22:01:41,053 INFO [django.utils.autoreload:668] autoreload 40 140226764864328 Watching for file changes with StatReloader
+2023-08-17 22:01:56,321 ERROR [app.api:13] ViewProduct 40 140226697874232 ViewEntity (post) error Error on create Organization null value in column "category_id" of relation "products" violates not-null constraint
+DETAIL:  Failing row contains (3, 2023-08-17 22:01:56.318767-03, 2023-08-17 22:01:56.319072-03, postgres, postgres, Wisky Jhony walker, 12.900000, null).
+
+2023-08-17 22:01:56,323 ERROR [django.request:241] log 40 140226697874232 Internal Server Error: /app/products
+2023-08-17 22:02:09,902 INFO [django.utils.autoreload:266] autoreload 40 140226764864328 /application/app/repositories/ProductCategoryRepository.py changed, reloading.
+2023-08-17 22:02:12,479 INFO [django.utils.autoreload:668] autoreload 43 140150307896136 Watching for file changes with StatReloader
+2023-08-17 22:02:35,113 INFO [django.utils.autoreload:266] autoreload 43 140150307896136 /application/app/repositories/ProductCategoryRepository.py changed, reloading.
+2023-08-17 22:02:37,355 INFO [django.utils.autoreload:668] autoreload 45 140105208720200 Watching for file changes with StatReloader

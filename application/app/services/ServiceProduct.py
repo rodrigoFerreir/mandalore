@@ -27,10 +27,10 @@ class ServiceProduct(BaseService):
                 category=category
             )
         except Exception as error:
-            raise Exception(f'Error on create Organization {error}')
+            raise Exception(f'Error on create Products {error}')
         else:
             return {
-                'message': 'Entidade criada com sucesso!',
+                'message': 'Produto criado com sucesso!',
                 "data": ProductSerializer(instance_product).data,
             }
 
@@ -40,7 +40,7 @@ class ServiceProduct(BaseService):
             for item in self.repository.get():
                 _result.append(ProductSerializer(item).data)
         except Exception as error:
-            raise Exception(f'Erro on get Entities {error}')
+            raise Exception(f'Erro on get Products {error}')
         else:
             return _result
 
@@ -61,7 +61,7 @@ class ServiceProduct(BaseService):
                 category=category
             )
         except Exception as error:
-            raise Exception(f'Erro on update Organization {error}')
+            raise Exception(f'Erro on update Product {error}')
         else:
             return {
                 'message': 'Produto atualizado com sucesso!',
@@ -71,6 +71,6 @@ class ServiceProduct(BaseService):
         try:
             self.repository.delete(_id=id)
         except Exception as error:
-            raise Exception(f'Erro on update Organization {error}')
+            raise Exception(f'Erro on update Product {error}')
         else:
             return "Item deletado!"
