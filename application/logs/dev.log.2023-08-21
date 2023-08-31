@@ -1,0 +1,94 @@
+2023-08-21 20:42:28,780 INFO [core.utils.seed_dev:29] seed_dev 55 140199519333192 INICIANDO CARGA DE DADOS
+2023-08-21 20:42:47,951 INFO [core.utils.seed_dev:29] seed_dev 10 140308356537160 INICIANDO CARGA DE DADOS
+2023-08-21 20:43:21,928 INFO [core.utils.seed_dev:29] seed_dev 13 139726299523912 INICIANDO CARGA DE DADOS
+2023-08-21 20:43:22,907 INFO [core.utils.seed_dev:33] seed_dev 13 139726299523912 CARGA DE DADOS FINALIZADA
+2023-08-21 20:43:30,221 INFO [django.utils.autoreload:668] autoreload 15 140543056784200 Watching for file changes with StatReloader
+2023-08-21 20:44:08,739 WARNING [django.request:241] log 15 140542986783544 Unauthorized: /app/products
+2023-08-21 20:45:15,201 INFO [django.utils.autoreload:266] autoreload 15 140543056784200 /application/app/services/ServiceProduct.py changed, reloading.
+2023-08-21 20:45:21,673 INFO [django.utils.autoreload:668] autoreload 18 139630240090952 Watching for file changes with StatReloader
+2023-08-21 20:45:42,840 INFO [django.utils.autoreload:266] autoreload 18 139630240090952 /application/app/services/ServiceProduct.py changed, reloading.
+2023-08-21 20:45:48,520 INFO [django.utils.autoreload:668] autoreload 20 140604851792712 Watching for file changes with StatReloader
+2023-08-21 20:46:04,105 INFO [django.utils.autoreload:266] autoreload 20 140604851792712 /application/app/services/ServiceProduct.py changed, reloading.
+2023-08-21 20:46:07,736 INFO [django.utils.autoreload:668] autoreload 22 139636591012680 Watching for file changes with StatReloader
+2023-08-21 20:46:14,021 INFO [django.utils.autoreload:266] autoreload 22 139636591012680 /application/app/services/ServiceProduct.py changed, reloading.
+2023-08-21 20:46:17,967 INFO [django.utils.autoreload:668] autoreload 24 140633426242376 Watching for file changes with StatReloader
+2023-08-21 20:57:42,696 INFO [django.utils.autoreload:266] autoreload 24 140633426242376 /application/app/repositories/__init__.py changed, reloading.
+2023-08-21 20:57:47,111 INFO [django.utils.autoreload:668] autoreload 26 140717435513672 Watching for file changes with StatReloader
+2023-08-21 20:59:06,850 INFO [django.utils.autoreload:266] autoreload 26 140717435513672 /application/app/repositories/__init__.py changed, reloading.
+2023-08-21 20:59:09,316 INFO [django.utils.autoreload:668] autoreload 28 140028333517640 Watching for file changes with StatReloader
+2023-08-21 20:59:43,596 INFO [django.utils.autoreload:266] autoreload 28 140028333517640 /application/app/models/__init__.py changed, reloading.
+2023-08-21 20:59:46,380 INFO [django.utils.autoreload:668] autoreload 30 140059803810632 Watching for file changes with StatReloader
+2023-08-21 21:00:34,890 INFO [django.utils.autoreload:266] autoreload 30 140059803810632 /application/app/models/ItemOrder.py changed, reloading.
+2023-08-21 21:00:37,184 INFO [django.utils.autoreload:668] autoreload 32 140023335750472 Watching for file changes with StatReloader
+2023-08-21 21:00:42,479 INFO [django.utils.autoreload:266] autoreload 32 140023335750472 /application/app/models/ItemOrder.py changed, reloading.
+2023-08-21 21:00:45,346 INFO [django.utils.autoreload:668] autoreload 34 139965369854792 Watching for file changes with StatReloader
+2023-08-21 21:01:41,054 INFO [django.utils.autoreload:266] autoreload 34 139965369854792 /application/app/models/ItemOrder.py changed, reloading.
+2023-08-21 21:01:43,451 INFO [django.utils.autoreload:668] autoreload 36 140237294320456 Watching for file changes with StatReloader
+2023-08-21 21:02:46,232 INFO [django.utils.autoreload:266] autoreload 36 140237294320456 /application/app/models/ItemOrder.py changed, reloading.
+2023-08-21 21:02:48,778 INFO [django.utils.autoreload:668] autoreload 38 139960059370312 Watching for file changes with StatReloader
+2023-08-21 21:04:47,280 INFO [django.utils.autoreload:266] autoreload 38 139960059370312 /application/app/repositories/__init__.py changed, reloading.
+2023-08-21 21:04:49,705 INFO [django.utils.autoreload:668] autoreload 40 140226586520392 Watching for file changes with StatReloader
+2023-08-21 21:07:21,404 INFO [django.utils.autoreload:266] autoreload 40 140226586520392 /application/app/repositories/ItemOrderRepository.py changed, reloading.
+2023-08-21 21:07:24,093 INFO [django.utils.autoreload:668] autoreload 42 140020514786120 Watching for file changes with StatReloader
+2023-08-21 21:08:09,444 INFO [django.utils.autoreload:266] autoreload 42 140020514786120 /application/app/repositories/ItemOrderRepository.py changed, reloading.
+2023-08-21 21:08:11,870 INFO [django.utils.autoreload:668] autoreload 44 140320268819272 Watching for file changes with StatReloader
+2023-08-21 21:08:44,942 INFO [django.utils.autoreload:266] autoreload 44 140320268819272 /application/app/repositories/ItemOrderRepository.py changed, reloading.
+2023-08-21 21:08:47,444 INFO [django.utils.autoreload:668] autoreload 46 139706837269320 Watching for file changes with StatReloader
+2023-08-21 21:09:01,328 INFO [django.utils.autoreload:266] autoreload 46 139706837269320 /application/app/repositories/ItemOrderRepository.py changed, reloading.
+2023-08-21 21:09:03,815 INFO [django.utils.autoreload:668] autoreload 48 140608679082824 Watching for file changes with StatReloader
+2023-08-21 21:09:13,208 INFO [django.utils.autoreload:266] autoreload 48 140608679082824 /application/app/repositories/ItemOrderRepository.py changed, reloading.
+2023-08-21 21:09:16,225 INFO [django.utils.autoreload:668] autoreload 50 139621554797384 Watching for file changes with StatReloader
+2023-08-21 21:09:40,077 INFO [django.utils.autoreload:266] autoreload 50 139621554797384 /application/app/repositories/ItemOrderRepository.py changed, reloading.
+2023-08-21 21:09:42,853 INFO [django.utils.autoreload:668] autoreload 52 140139645008712 Watching for file changes with StatReloader
+2023-08-21 21:13:07,599 INFO [django.utils.autoreload:266] autoreload 52 140139645008712 /application/app/models/ItemOrder.py changed, reloading.
+2023-08-21 21:13:10,049 INFO [django.utils.autoreload:668] autoreload 54 140604828179272 Watching for file changes with StatReloader
+2023-08-21 21:16:19,605 INFO [django.utils.autoreload:266] autoreload 54 140604828179272 /application/app/models/ItemOrder.py changed, reloading.
+2023-08-21 21:16:22,284 INFO [django.utils.autoreload:668] autoreload 56 140548026596168 Watching for file changes with StatReloader
+2023-08-21 21:28:00,875 INFO [core.utils.seed_dev:29] seed_dev 11 139624930659144 INICIANDO CARGA DE DADOS
+2023-08-21 21:28:14,253 INFO [core.utils.seed_dev:29] seed_dev 10 140082256632648 INICIANDO CARGA DE DADOS
+2023-08-21 21:28:29,621 INFO [core.utils.seed_dev:29] seed_dev 10 140335073102664 INICIANDO CARGA DE DADOS
+2023-08-21 21:28:44,311 INFO [core.utils.seed_dev:29] seed_dev 10 140545074035528 INICIANDO CARGA DE DADOS
+2023-08-21 21:28:58,559 INFO [core.utils.seed_dev:29] seed_dev 10 139960006019912 INICIANDO CARGA DE DADOS
+2023-08-21 21:29:13,018 INFO [core.utils.seed_dev:31] seed_dev 10 140430151539528 INICIANDO CARGA DE DADOS
+2023-08-21 21:29:13,782 INFO [core.utils.seed_dev:23] seed_dev 10 140430151539528 Usuarios já foram criados!
+2023-08-21 21:29:26,863 INFO [core.utils.seed_dev:31] seed_dev 10 140251186719560 INICIANDO CARGA DE DADOS
+2023-08-21 21:29:27,600 INFO [core.utils.seed_dev:23] seed_dev 10 140251186719560 Usuarios já foram criados!
+2023-08-21 21:29:41,666 INFO [core.utils.seed_dev:31] seed_dev 10 140535986527048 INICIANDO CARGA DE DADOS
+2023-08-21 21:29:42,393 INFO [core.utils.seed_dev:23] seed_dev 10 140535986527048 Usuarios já foram criados!
+2023-08-21 21:29:56,859 INFO [core.utils.seed_dev:31] seed_dev 10 139884568009544 INICIANDO CARGA DE DADOS
+2023-08-21 21:29:57,713 INFO [core.utils.seed_dev:23] seed_dev 10 139884568009544 Usuarios já foram criados!
+2023-08-21 21:30:11,297 INFO [core.utils.seed_dev:31] seed_dev 10 139720429206344 INICIANDO CARGA DE DADOS
+2023-08-21 21:30:12,084 INFO [core.utils.seed_dev:23] seed_dev 10 139720429206344 Usuarios já foram criados!
+2023-08-21 21:30:25,712 INFO [core.utils.seed_dev:31] seed_dev 11 140522397281096 INICIANDO CARGA DE DADOS
+2023-08-21 21:30:26,633 INFO [core.utils.seed_dev:23] seed_dev 11 140522397281096 Usuarios já foram criados!
+2023-08-21 21:30:56,588 INFO [core.utils.seed_dev:29] seed_dev 10 140090377792328 INICIANDO CARGA DE DADOS
+2023-08-21 21:30:57,238 INFO [core.utils.seed_dev:34] seed_dev 10 140090377792328 Usuarios já foram criados
+2023-08-21 21:30:57,238 INFO [core.utils.seed_dev:36] seed_dev 10 140090377792328 CARGA DE DADOS FINALIZADA
+2023-08-21 21:31:01,921 INFO [django.utils.autoreload:668] autoreload 12 139924301843272 Watching for file changes with StatReloader
+2023-08-21 21:32:01,763 INFO [django.utils.autoreload:266] autoreload 12 139924301843272 /application/app/repositories/__init__.py changed, reloading.
+2023-08-21 21:32:04,737 INFO [django.utils.autoreload:668] autoreload 14 140255404464968 Watching for file changes with StatReloader
+2023-08-21 21:32:10,669 INFO [django.utils.autoreload:266] autoreload 14 140255404464968 /application/app/repositories/__init__.py changed, reloading.
+2023-08-21 21:32:14,022 INFO [django.utils.autoreload:668] autoreload 16 140603351821128 Watching for file changes with StatReloader
+2023-08-21 21:38:26,550 INFO [django.utils.autoreload:266] autoreload 16 140603351821128 /application/app/repositories/OrderRepository.py changed, reloading.
+2023-08-21 21:38:30,235 INFO [django.utils.autoreload:668] autoreload 18 140377007770440 Watching for file changes with StatReloader
+2023-08-21 21:39:16,682 INFO [django.utils.autoreload:266] autoreload 18 140377007770440 /application/app/repositories/OrderRepository.py changed, reloading.
+2023-08-21 21:39:19,289 INFO [django.utils.autoreload:668] autoreload 20 140602408373064 Watching for file changes with StatReloader
+2023-08-21 21:39:29,328 INFO [django.utils.autoreload:266] autoreload 20 140602408373064 /application/app/repositories/OrderRepository.py changed, reloading.
+2023-08-21 21:39:32,317 INFO [django.utils.autoreload:668] autoreload 22 140219114920776 Watching for file changes with StatReloader
+2023-08-21 21:40:21,924 INFO [django.utils.autoreload:266] autoreload 22 140219114920776 /application/app/repositories/EntityRepository.py changed, reloading.
+2023-08-21 21:40:25,401 INFO [django.utils.autoreload:668] autoreload 24 140439988144968 Watching for file changes with StatReloader
+2023-08-21 21:40:47,503 INFO [django.utils.autoreload:266] autoreload 24 140439988144968 /application/app/repositories/EntityRepository.py changed, reloading.
+2023-08-21 21:40:50,464 INFO [django.utils.autoreload:668] autoreload 26 140480556325704 Watching for file changes with StatReloader
+2023-08-21 21:43:05,852 INFO [django.utils.autoreload:266] autoreload 26 140480556325704 /application/app/repositories/OrderRepository.py changed, reloading.
+2023-08-21 21:43:09,325 INFO [django.utils.autoreload:668] autoreload 28 140007436573512 Watching for file changes with StatReloader
+2023-08-21 21:44:47,943 INFO [django.utils.autoreload:266] autoreload 28 140007436573512 /application/app/services/ServiceEntity.py changed, reloading.
+2023-08-21 21:44:50,440 INFO [django.utils.autoreload:668] autoreload 30 140526679055176 Watching for file changes with StatReloader
+2023-08-21 21:44:56,599 INFO [django.utils.autoreload:266] autoreload 30 140526679055176 /application/app/services/__init__.py changed, reloading.
+2023-08-21 21:44:59,678 INFO [django.utils.autoreload:668] autoreload 32 139994214140744 Watching for file changes with StatReloader
+2023-08-21 21:45:04,629 INFO [django.utils.autoreload:266] autoreload 32 139994214140744 /application/app/services/ServiceProduct.py changed, reloading.
+2023-08-21 21:45:07,560 INFO [django.utils.autoreload:668] autoreload 34 140602951093064 Watching for file changes with StatReloader
+2023-08-21 21:49:46,145 WARNING [django.request:241] log 34 140602880572216 Unauthorized: /app/entities
+2023-08-21 21:50:10,770 ERROR [app.api:13] ViewEntity 34 140602880572216 ViewEntity (post) error Error on create Organization EntityCategory matching query does not exist.
+2023-08-21 21:50:10,771 ERROR [django.request:241] log 34 140602880572216 Internal Server Error: /app/entities
+2023-08-21 21:50:18,254 ERROR [app.api:13] ViewEntity 34 140602880572216 ViewEntity (post) error Error on create Organization EntityCategory matching query does not exist.
+2023-08-21 21:50:18,255 ERROR [django.request:241] log 34 140602880572216 Internal Server Error: /app/entities

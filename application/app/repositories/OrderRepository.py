@@ -11,7 +11,18 @@ class OrderRepository(BaseRepository):
     @classmethod
     def get(cls) -> List[Order]:
         return Order.objects.all().order_by("id")
+    
+    @classmethod
+    def get_by_id(cls, _id:int) -> List[Order]:
+        return Order.objects.get(id=_id)
 
+    @classmethod
+    def get_or_create_by_id(cls, _id:int, entity:Entity = None, address:Address = None) -> Order:
+        if order := cls.get_by_id(_id):
+            return order
+        else:
+            return cls.create(entity, address)
+    
     @classmethod
     def get_by_date_order(cls, date_order: str) -> Order:
         return Order.objects.get(date_order=date_order)

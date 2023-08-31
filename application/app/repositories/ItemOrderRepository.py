@@ -1,12 +1,12 @@
 from typing import List
-from . import BaseRepository, Product, ItemOrder
+from . import BaseRepository, Product, ItemOrder, Order
 
 
 class ItemOrderRepository(BaseRepository):
 
     @classmethod
-    def create(cls, product: Product, amount:int, total_value:float) -> None:
-        return ItemOrder.objects.create(product=product, amount=amount, total_value=total_value)
+    def create(cls, product: Product, amount:int, total_value:float, order:Order) -> ItemOrder:
+        return ItemOrder.objects.create(product=product, amount=amount, total_value=total_value, order=order)
 
     @classmethod
     def get(cls) -> List[ItemOrder]:

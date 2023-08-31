@@ -13,6 +13,10 @@ class ProductRepository(BaseRepository):
         return Product.objects.all().order_by("id")
 
     @classmethod
+    def get_by_id(cls, _id: str) -> Product:
+        return Product.objects.get(id=_id)
+
+    @classmethod
     def get_by_name(cls, name: str) -> List[Product]:
         return Product.objects.filter(name=name).order_by("id")
 

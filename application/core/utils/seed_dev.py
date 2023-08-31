@@ -1,6 +1,7 @@
 import os
 import logging
 from accounts.models import User
+from app.models import *
 
 
 logger = logging.getLogger(__name__)
@@ -22,8 +23,14 @@ class SeedDevInitial():
     def create_normal_users(self):
         User.objects.create(username="teste_user", email="teste_user@teste.com", password='teste12340')
 
-    def create_organization(self):
-        ...
+    def create_entity_categories(self):
+        try:
+            EntityCategory.objects.create(name="EMPRESA")
+            EntityCategory.objects.create(name="CLIENTE")
+            EntityCategory.objects.create(name="USUARIO")
+            EntityCategory.objects.create(name="FORNECEDOR")
+        except:
+            logger.info("Categorias de entidades já foram cadastradas")
 
     def execute(self):
         logger.info('INICIANDO CARGA DE DADOS')
@@ -32,5 +39,6 @@ class SeedDevInitial():
             self.create_normal_users()
         except:
             logger.info("Usuarios já foram criados")
-        self.create_organization()
+        
+        self.create_entity_categories()
         logger.info("CARGA DE DADOS FINALIZADA")

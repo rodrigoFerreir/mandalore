@@ -14,3 +14,4 @@ from app.serializers import *
 
 from .ServiceEntity import ServiceEntity
 from .ServiceProduct import ServiceProduct
+from .ServiceOrder import ServiceOrder
