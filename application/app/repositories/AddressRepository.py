@@ -34,6 +34,42 @@ class AddressRepository(BaseRepository):
         return Address.objects.all().order_by("id")
 
     @classmethod
+    def get_or_create(
+        cls,
+        street: str,
+        number: str,
+        complement: str,
+        neighborhood: str,
+        zip_code: str,
+        city: str,
+        state: str,
+        country: str,
+        entity: Entity
+    ) -> Address:
+        if address := Address.objects.filter(street=street, 
+                                            number=number,
+                                            complement=complement, 
+                                            neighborhood=neighborhood, 
+                                            zip_code=zip_code,
+                                            city=city,
+                                            state=state,
+                                            country=country,
+                                            entity=entity).last():
+            return address
+        else:
+            return Address.objects.create(
+                street=street,
+                number=number,
+                complement=complement,
+                neighborhood=neighborhood,
+                zip_code=zip_code,
+                city=city,
+                state=state,
+                country=country,
+                entity=entity
+            )
+
+    @classmethod
     def get_by_entity(cls, entity_id: int) -> List[Address]:
         return Address.objects.filter(entity__id=entity_id).order_by("id")
 

@@ -4,6 +4,7 @@ class ServiceOrder(BaseService):
 
     def __init__(self, data:dict) -> None:
         self.data_order = data
+        self.data_order_address = data.get("address")
         self.data_item_order = data.get("itens")
         self.repository = OrderRepository()
         self.repository_item_order = ItemOrderRepository()
@@ -14,11 +15,27 @@ class ServiceOrder(BaseService):
     def create(self):
 
         try:
-            entity = self.repository_entity.get_by_cpf_cnpj(cpf_cnpj=self.data_order["cpf_cnpj"])
-            #address = self.repository_address.get() # TODO: criar get_or_create
+            entity = None
+            address = None
+            
+            if self.data_order.get("cpf_cnpj"):
+                entity = self.repository_entity.get_by_cpf_cnpj(cpf_cnpj=self.data_order.get("cpf_cnpj"))
+            
+            if self.data_order_address:
+                address = self.repository_address.get_or_create(
+                    street=self.data_order_address.get('street'),
+                    number=self.data_order_address.get('number'),
+                    complement=self.data_order_address.get('complement'),
+                    neighborhood=self.data_order_address.get('neighborhood'),
+                    zip_code=self.data_order_address.get('zip_code'),
+                    city=self.data_order_address.get('city'),
+                    state=self.data_order_address.get('state'),
+                    country=self.data_order_address.get('country'),
+                    entity=entity
+                )
             order = self.repository.create(
                 entity= entity,
-                address= entity.addresses.last()
+                address= address
             )
             if self.data_item_order:
                 self.data_order['order_id'] = order.id

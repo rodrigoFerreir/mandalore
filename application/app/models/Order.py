@@ -8,7 +8,7 @@ class Order(BaseClassModel):
     address = models.ForeignKey(Address, on_delete=models.CASCADE, related_name="address_destination", null=True, blank=True)
     status = models.IntegerField(choices=StatusOrder.choices(), default=StatusOrder.OPEN)
     status_payment = models.IntegerField(choices=StatusPayment.choices(), default=StatusPayment.PENDING)
-    total_value_order = models.DecimalField(max_digits=8, decimal_places=6, default=0.0)
+    total_value_order = models.DecimalField(max_digits=13, decimal_places=2, default='0.00')
 
 
     def __str__(self):
@@ -25,5 +25,8 @@ class Order(BaseClassModel):
 
 
     def _calculate_total_value_order(self):
+        _total:float = 0.0
         for i in self.itens_order.all():
-            self.total_value_order += i.total_value
+            _total += float(i.total_value)
+            self.total_value_order = str(_total)
+        self.save()
