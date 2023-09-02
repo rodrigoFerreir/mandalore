@@ -37,7 +37,7 @@ class ViewOrder(APIView):
 
     def delete(self, request):
         try:
-            result = ServiceOrder().delete(id=int(request.query_params.get('id')))
+            result = ServiceOrder(request.data).delete(id=int(request.query_params.get('id')))
         except Exception as error:
             logger.error(f'ViewOrder (delete) error {error}')
             return Response({"message": f"{error}"}, status=HTTP_500_INTERNAL_SERVER_ERROR)

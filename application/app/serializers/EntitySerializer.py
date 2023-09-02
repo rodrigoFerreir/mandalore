@@ -11,6 +11,7 @@ class EntitySerializer():
     def __representation(self) -> dict:
         if self.data_query:
             return {
+                "id": self.data_query.id,
                 "name": self.data_query.name,
                 "cpf_cnpj": self.data_query.cpf_cnpj,
                 "category": self.data_query.category.name

@@ -10,6 +10,7 @@ class ProductSerializer():
 
     def __representation(self) -> dict:
         return {
+            "id":self.data_query.id,
             "name": self.data_query.name,
             "price": self.data_query.price,
             "category": self.data_query.category.name

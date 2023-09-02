@@ -29,8 +29,12 @@ class OrderRepository(BaseRepository):
         return Order.objects.get(date_order=date_order)
 
     @classmethod
-    def update(cls, _id: int, entity:Entity = None, address:Address = None) -> None:
-        Order.objects.filter(id=_id).update(entity=entity, address=address, updated_at=datetime.now())
+    def update(cls, _id: int, entity:Entity = None, address:Address = None, status:int = 1, status_payment:int = 1) -> None:
+        Order.objects.filter(id=_id).update(entity=entity, 
+                                            address=address, 
+                                            updated_at=datetime.now(), 
+                                            status=status, 
+                                            status_payment=status_payment)
 
     @classmethod
     def delete(cls, _id: int) -> None:

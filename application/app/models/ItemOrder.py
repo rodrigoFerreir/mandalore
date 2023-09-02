@@ -5,7 +5,7 @@ class ItemOrder(BaseClassModel):
 
     product = models.ForeignKey(Product, on_delete=models.PROTECT, related_name="products")
     amount = models.IntegerField()
-    total_value = models.DecimalField(max_digits=8 , decimal_places=2)
+    total_value = models.DecimalField(max_digits=13, decimal_places=2, default='0.00')
     order = models.ForeignKey(Order, on_delete=models.CASCADE, related_name="itens_order")
 
     class Meta:

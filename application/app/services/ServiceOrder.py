@@ -81,12 +81,14 @@ class ServiceOrder(BaseService):
                     entity=entity
                 )
             
-            self.repository.update(_id=self.data_order["order_id"], entity=entity, address=address)
+            self.repository.update(_id=self.data_order["order_id"], 
+                                   entity=entity, 
+                                   address=address, 
+                                   status= self.data_order.get('status'), 
+                                   status_payment=self.data_order.get('status_payment'),)
 
             order = self.repository.get_by_id(_id=self.data_order["order_id"])
-            for item in self.data_item_order:
-                if item.get("product_id") not in [i.product.id for i in order.itens_order.all()]:
-                    self.add_item()
+            self.add_item()
             order.save()
         except Exception as error:
             raise Exception(f'Erro on update Order {error}')
@@ -96,9 +98,9 @@ class ServiceOrder(BaseService):
                 'data': OrderSerializer(order).data
             }
 
-    def delete(self):
+    def delete(self, id:int):
         try:
-           self.repository.delete(_id = self.data_order['order_id'])
+           self.repository.delete(_id = id)
         except Exception as error:
             raise Exception(f'Erro on delete Order {error}')
         else:

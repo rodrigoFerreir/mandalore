@@ -55,6 +55,7 @@ class ServiceProduct(BaseService):
                 )
 
             self.repository.update(
+                _id = self.data_product["id"],
                 name=self.data_product['name'],
                 price=self.data_product['price'],
                 category=category
