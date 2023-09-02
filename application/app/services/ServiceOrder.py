@@ -1,3 +1,4 @@
+from itertools import product
 from . import *
 
 class ServiceOrder(BaseService):
@@ -62,19 +63,44 @@ class ServiceOrder(BaseService):
 
     def update(self):
         try:
-            ...
+            entity = None
+            address = None
+            if self.data_order.get("cpf_cnpj"):
+                entity = self.repository_entity.get_by_cpf_cnpj(cpf_cnpj=self.data_order.get("cpf_cnpj"))
+            
+            if self.data_order_address:
+                address = self.repository_address.get_or_create(
+                    street=self.data_order_address.get('street'),
+                    number=self.data_order_address.get('number'),
+                    complement=self.data_order_address.get('complement'),
+                    neighborhood=self.data_order_address.get('neighborhood'),
+                    zip_code=self.data_order_address.get('zip_code'),
+                    city=self.data_order_address.get('city'),
+                    state=self.data_order_address.get('state'),
+                    country=self.data_order_address.get('country'),
+                    entity=entity
+                )
+            
+            self.repository.update(_id=self.data_order["order_id"], entity=entity, address=address)
+
+            order = self.repository.get_by_id(_id=self.data_order["order_id"])
+            for item in self.data_item_order:
+                if item.get("product_id") not in [i.product.id for i in order.itens_order.all()]:
+                    self.add_item()
+            order.save()
         except Exception as error:
             raise Exception(f'Erro on update Order {error}')
         else:
             return {
                 'message': 'Pedito atualizado com sucesso!',
+                'data': OrderSerializer(order).data
             }
 
-    def delete(self, id: int):
+    def delete(self):
         try:
-           ...
+           self.repository.delete(_id = self.data_order['order_id'])
         except Exception as error:
-            raise Exception(f'Erro on update Order {error}')
+            raise Exception(f'Erro on delete Order {error}')
         else:
             return "Item deletado!"
     

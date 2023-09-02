@@ -27,6 +27,7 @@ class ViewOrder(APIView):
 
     def put(self, request):
         try:
+            request.data['order_id'] = request.data['id']
             result = ServiceOrder(request.data).update()
         except Exception as error:
             logger.error(f'ViewOrder (put) error {error}')

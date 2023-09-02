@@ -1,3 +1,4 @@
+from datetime import datetime
 from typing import List
 from . import BaseRepository, Order,  Entity, Address
 
@@ -13,7 +14,7 @@ class OrderRepository(BaseRepository):
         return Order.objects.all().order_by("id")
     
     @classmethod
-    def get_by_id(cls, _id:int) -> List[Order]:
+    def get_by_id(cls, _id:int) -> Order:
         return Order.objects.get(id=_id)
 
     @classmethod
@@ -28,8 +29,8 @@ class OrderRepository(BaseRepository):
         return Order.objects.get(date_order=date_order)
 
     @classmethod
-    def update(cls, _id: int, name: str) -> None:
-        Order.objects.filter(id=_id).update(name=name)
+    def update(cls, _id: int, entity:Entity = None, address:Address = None) -> None:
+        Order.objects.filter(id=_id).update(entity=entity, address=address, updated_at=datetime.now())
 
     @classmethod
     def delete(cls, _id: int) -> None:
