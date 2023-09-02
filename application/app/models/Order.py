@@ -10,6 +10,10 @@ class Order(BaseClassModel):
     status_payment = models.IntegerField(choices=StatusPayment.choices(), default=StatusPayment.PENDING)
     total_value_order = models.DecimalField(max_digits=13, decimal_places=2, default='0.00')
 
+    class Meta:
+        db_table = 'orders'
+        verbose_name = 'Order'
+        verbose_name_plural = 'Orders'
 
     def __str__(self):
         return f'{self.entity.name} - {self.date_order}'

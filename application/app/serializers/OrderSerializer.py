@@ -15,7 +15,7 @@ class OrderSerializer():
                 "date": self.data_query.date_order.strftime("%m/%d/%Y - %H:%M:%S"),
                 "total_value_order": self.data_query.total_value_order,
                 "entity_data": EntitySerializer(self.data_query.entity).data,
-                "address": AddressSerializer(self.data_query.entity.addresses.last()).data if self.data_query.entity else None, 
+                "address": AddressSerializer(self.data_query.address).data if self.data_query.address else None, 
                 "itens":[ItemOrderSerializer(item).data for item in self.data_query.itens_order.all()] if self.data_query else []
             }
         else:
