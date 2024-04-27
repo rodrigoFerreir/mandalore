@@ -13,5 +13,6 @@ class ProductSerializer():
             "id":self.data_query.id,
             "name": self.data_query.name,
             "price": self.data_query.price,
-            "category": self.data_query.category.name
+            "category": self.data_query.category.name,
+            "url_image": self.data_query.url_image,
         }

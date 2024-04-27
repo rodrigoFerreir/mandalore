@@ -1,8 +1,9 @@
+from django.db import reset_queries
 from . import *
 
 
 class ViewProduct(APIView):
-    permission_classes = [IsAuthenticated]
+    permission_classes = [IsAuthenticatedOrReadOnly]
 
     def post(self, request):
         try:
@@ -17,7 +18,9 @@ class ViewProduct(APIView):
 
     def get(self, request):
         try:
-            request.data['user_id'] = int(request.user.id)
+            if not isinstance(request.user, AnonymousUser):
+                request.data['user_id'] = int(request.user.id)
+
             result = ServiceProduct(request.data).get()
         except Exception as error:
             logger.error(f'ViewEntity (get) error {error}')

@@ -23,7 +23,8 @@ class ServiceProduct(BaseService):
             instance_product = self.repository.create(
                 name=self.data_product['name'],
                 price=self.data_product['price'],
-                category=category
+                category=category, 
+                url_image= self.data_product['url_image']
             )
         except Exception as error:
             raise Exception(f'Error on create Products {error}')
@@ -58,7 +59,8 @@ class ServiceProduct(BaseService):
                 _id = self.data_product["id"],
                 name=self.data_product['name'],
                 price=self.data_product['price'],
-                category=category
+                category=category,
+                url_image = self.data_product["url_image"]
             )
         except Exception as error:
             raise Exception(f'Erro on update Product {error}')

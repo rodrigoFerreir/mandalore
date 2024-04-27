@@ -28,7 +28,7 @@ SECRET_KEY = os.getenv('SECRET_KEY', 'change-me')
 DEBUG = bool(int(os.getenv('DEBUG', 0)))
 
 ALLOWED_HOSTS = [
-    h.strip() for h in os.getenv('ALLOWED_HOSTS', '').split(',')
+    h.strip() for h in os.getenv('ALLOWED_HOSTS', '127.0.0.1,').split(',')
     if h.strip()
 ]
 
@@ -141,6 +141,8 @@ TIME_ZONE = 'America/Sao_Paulo'
 USE_I18N = False
 
 USE_TZ = False
+
+CORS_ALLOWED_ORIGINS = ['http://localhost:5173']
 
 if DEBUG:
     LOG_LEVEL = 'DEBUG'

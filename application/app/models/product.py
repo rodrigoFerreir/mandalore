@@ -5,6 +5,7 @@ class Product(BaseClassModel):
     name = models.CharField(max_length=200)
     price = models.DecimalField(max_digits=13, decimal_places=2, default='0.00')
     category = models.ForeignKey(ProductCategory, on_delete=models.CASCADE, related_name="products")
+    url_image = models.URLField(max_length=500, null=True, blank=True)
 
     class Meta:
         db_table = 'products'
